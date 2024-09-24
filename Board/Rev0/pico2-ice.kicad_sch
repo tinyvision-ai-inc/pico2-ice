@@ -6587,200 +6587,6 @@
 				)
 			)
 		)
-		(symbol "Power_Management:TPS22929D"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TPS22929D"
-				(at 7.62 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps22929d.pdf"
-				(at -2.54 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "High side, power distribution switch, 1.4V-5.5V, 1.8A, SOT23-6 package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "high-side power distribution switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPS22929D_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TPS22929D_1_1"
-				(pin power_out line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "ON"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Regulator_Linear:NCP115AMX120TCG"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10753,10 +10559,10 @@
 		(uuid "4e5f93d3-0f0e-4391-a36c-595f30dd2841")
 	)
 	(junction
-		(at 152.4 29.21)
+		(at 140.97 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "514cb696-a514-448f-83e9-d64dbc20d1c6")
+		(uuid "548b9155-7783-445e-9d36-2f494f776e35")
 	)
 	(junction
 		(at 215.9 25.4)
@@ -10793,12 +10599,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "592c32b1-78d6-4b9f-ad89-3877993c72c6")
-	)
-	(junction
-		(at 179.07 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c1405d2-7b2d-4461-89f2-944e91441492")
 	)
 	(junction
 		(at 438.785 199.39)
@@ -10903,6 +10703,12 @@
 		(uuid "7c0857c3-46a4-4a9c-ae1e-7c0cc60ee467")
 	)
 	(junction
+		(at 129.54 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81776c3b-7e74-4930-abcd-d05f1ad212d5")
+	)
+	(junction
 		(at 41.91 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10919,12 +10725,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88fa19dd-ea37-4fe8-9ff2-3bb54ee51251")
-	)
-	(junction
-		(at 165.1 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ae4d455-33b5-4b76-b80d-6ca11d69ef17")
 	)
 	(junction
 		(at 259.08 73.66)
@@ -11123,12 +10923,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4f6ac6a-ae2d-4885-99af-6c48c3b0dc66")
-	)
-	(junction
-		(at 129.54 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5e174ba-e304-4819-ad9a-0dae182d3d03")
 	)
 	(junction
 		(at 167.64 130.81)
@@ -11866,6 +11660,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 284.48) (xy 146.05 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db86b44-0207-4c20-bb58-752761066662")
+	)
+	(wire
+		(pts
 			(xy 146.05 167.64) (xy 148.59 167.64)
 		)
 		(stroke
@@ -11983,6 +11787,16 @@
 			(type default)
 		)
 		(uuid "239bc9e7-4e31-484c-a6fa-48d22728a5d6")
+	)
+	(wire
+		(pts
+			(xy 148.59 281.94) (xy 146.05 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2489028d-7508-4c5d-bd65-a1565a701ff5")
 	)
 	(wire
 		(pts
@@ -12163,16 +11977,6 @@
 			(type default)
 		)
 		(uuid "2e14cb47-34d9-4dbd-a674-1e53ee450da9")
-	)
-	(wire
-		(pts
-			(xy 152.4 26.67) (xy 152.4 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f31006a-9e8c-4035-b530-635094399207")
 	)
 	(wire
 		(pts
@@ -12646,16 +12450,6 @@
 	)
 	(wire
 		(pts
-			(xy 488.315 196.85) (xy 493.395 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4090caf8-4ac8-4b62-b4ff-50f91c92db5f")
-	)
-	(wire
-		(pts
 			(xy 506.095 184.15) (xy 509.905 184.15)
 		)
 		(stroke
@@ -12723,6 +12517,16 @@
 			(type default)
 		)
 		(uuid "44813188-dd14-4eec-bbd9-bb7dc82e3c67")
+	)
+	(wire
+		(pts
+			(xy 490.22 196.85) (xy 493.395 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44bfd411-9084-4ab4-9d84-85c366f2d39e")
 	)
 	(wire
 		(pts
@@ -12936,13 +12740,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 29.21) (xy 152.4 29.21)
+			(xy 151.13 29.21) (xy 154.94 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e985ae9-efbe-4a78-9990-862fd285fbae")
+		(uuid "4e867c37-980e-4527-8feb-08b67b4e7c08")
 	)
 	(wire
 		(pts
@@ -13043,16 +12847,6 @@
 			(type default)
 		)
 		(uuid "5252ee6d-af92-4197-b5de-466471cadd53")
-	)
-	(wire
-		(pts
-			(xy 184.15 281.94) (xy 184.15 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52dc4201-bb74-4080-824f-23374919b913")
 	)
 	(wire
 		(pts
@@ -13826,16 +13620,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 274.32) (xy 184.15 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7645b23c-c8e2-401d-8edc-d5283f8b1ba7")
-	)
-	(wire
-		(pts
 			(xy 525.78 302.26) (xy 542.29 302.26)
 		)
 		(stroke
@@ -13903,6 +13687,16 @@
 			(type default)
 		)
 		(uuid "7a1c3dcb-bd10-404c-ba85-db3380a41aad")
+	)
+	(wire
+		(pts
+			(xy 151.13 36.83) (xy 154.94 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a5212f4-5c59-4e1a-bb7b-8d30478700bc")
 	)
 	(wire
 		(pts
@@ -14146,7 +13940,7 @@
 	)
 	(wire
 		(pts
-			(xy 509.905 199.39) (xy 506.095 199.39)
+			(xy 506.095 199.39) (xy 510.54 199.39)
 		)
 		(stroke
 			(width 0)
@@ -14716,6 +14510,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 29.21) (xy 143.51 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f05b9cc-55d2-4f75-8c68-cd717a219b3b")
+	)
+	(wire
+		(pts
 			(xy 213.36 369.57) (xy 215.9 369.57)
 		)
 		(stroke
@@ -14813,6 +14617,16 @@
 			(type default)
 		)
 		(uuid "a25cacb3-a0b2-4d8f-a4a6-d2c6669faea7")
+	)
+	(wire
+		(pts
+			(xy 143.51 36.83) (xy 140.97 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2989a86-9d35-4822-9f61-ad7ece25b8d2")
 	)
 	(wire
 		(pts
@@ -14936,23 +14750,13 @@
 	)
 	(wire
 		(pts
-			(xy 488.315 194.31) (xy 493.395 194.31)
+			(xy 490.22 194.31) (xy 493.395 194.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a9cc2e96-6e3e-47bb-a7c9-fd55d149b238")
-	)
-	(wire
-		(pts
-			(xy 179.07 38.1) (xy 179.07 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa0ee57d-175f-47e0-86b7-007b3c27a29a")
 	)
 	(wire
 		(pts
@@ -15684,16 +15488,6 @@
 		)
 		(uuid "caea863a-f688-4fa2-9e23-9325268862b0")
 	)
-	(wire
-		(pts
-			(xy 172.72 26.67) (xy 179.07 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb61b649-acdd-46d0-bb55-1773c1b21514")
-	)
 	(polyline
 		(pts
 			(xy 452.12 203.2) (xy 477.52 203.2)
@@ -15816,16 +15610,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 39.37) (xy 165.1 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfdc7e81-b296-4fbc-aceb-9816a876aca7")
-	)
-	(wire
-		(pts
 			(xy 74.93 361.95) (xy 68.58 361.95)
 		)
 		(stroke
@@ -15863,6 +15647,16 @@
 			(type default)
 		)
 		(uuid "d11f05a7-b97f-4df3-a51e-f3ece832d6ce")
+	)
+	(wire
+		(pts
+			(xy 140.97 36.83) (xy 140.97 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c140b9-7849-47f1-b4e9-3128f65be20a")
 	)
 	(wire
 		(pts
@@ -15963,6 +15757,16 @@
 			(type default)
 		)
 		(uuid "d6028542-98ba-4112-a1ec-29252c7a0875")
+	)
+	(wire
+		(pts
+			(xy 129.54 29.21) (xy 140.97 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d625d761-fe1e-4a97-adab-9433b997509f")
 	)
 	(wire
 		(pts
@@ -16583,16 +16387,6 @@
 			(type default)
 		)
 		(uuid "fa3cb7f0-9893-4120-a43f-708ba6cbf9ed")
-	)
-	(wire
-		(pts
-			(xy 146.05 266.7) (xy 184.15 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa4adc1e-170c-4042-9dcb-979067914b40")
 	)
 	(wire
 		(pts
@@ -17466,7 +17260,7 @@
 		)
 		(uuid "9e8e7d25-74ca-4d0d-8c4e-8e243144111b")
 	)
-	(text "3.3V Aon"
+	(text "3.3V"
 		(exclude_from_sim no)
 		(at 109.982 21.336 0)
 		(effects
@@ -17641,17 +17435,6 @@
 		)
 		(uuid "cbccfcc8-7b01-4a36-a37b-9eea9d2bdba9")
 	)
-	(text "Pulldown to keep the FPGA off\nwhen the RP boots up"
-		(exclude_from_sim no)
-		(at 184.658 285.242 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd69b373-5f4d-4c0d-b087-f74e29aa6cd8")
-	)
 	(text "FPGA Flash"
 		(exclude_from_sim no)
 		(at 437.896 21.59 0)
@@ -17708,6 +17491,17 @@
 			(justify right bottom)
 		)
 		(uuid "dd33a9c2-dd5a-499b-9415-044500398b77")
+	)
+	(text "Note: \nJumpers allow external power control when cut"
+		(exclude_from_sim no)
+		(at 118.11 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ebce08d1-b667-430f-8d7d-322f5ab2d429")
 	)
 	(text "GPIO"
 		(exclude_from_sim no)
@@ -17794,6 +17588,17 @@
 			(justify left bottom)
 		)
 		(uuid "0070df95-0cd7-4ec1-a6e7-91e389579e55")
+	)
+	(label "+3V3_AON"
+		(at 490.22 194.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00f8e7d4-3ed2-4e97-8df4-8ff3b49c2daa")
 	)
 	(label "ICE_31"
 		(at 438.15 290.83 180)
@@ -18224,17 +18029,6 @@
 		)
 		(uuid "2e183c85-8527-4ee3-8bda-2e3e0f833b4c")
 	)
-	(label "ICE_PWR_EN"
-		(at 509.905 199.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30a2e45b-8c42-4691-868e-34878c05cf51")
-	)
 	(label "~{USB_BOOT}"
 		(at 25.4 382.27 0)
 		(fields_autoplaced yes)
@@ -18554,16 +18348,16 @@
 		)
 		(uuid "4cf0808f-3834-424e-8510-de9e5b097673")
 	)
-	(label "ICE_PWR_EN"
-		(at 152.4 34.29 180)
+	(label "ADC4"
+		(at 148.59 281.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "4f1f2d85-688d-41f9-8d2e-c930e03f12ca")
+		(uuid "4f02ab3e-12b3-4788-a601-9f05f7d5d11f")
 	)
 	(label "SRAM_SS"
 		(at 417.83 173.99 180)
@@ -18641,6 +18435,17 @@
 			(justify left bottom)
 		)
 		(uuid "562261ea-5c39-4a79-9539-c33385801ff4")
+	)
+	(label "+3V3_AON"
+		(at 510.54 194.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5739fdf0-9c75-4d8e-ae72-fe7682ce4276")
 	)
 	(label "ICE_19"
 		(at 489.585 161.29 180)
@@ -18928,7 +18733,7 @@
 		)
 		(uuid "694133a9-7538-4dbd-8d09-2c3cc68fea4d")
 	)
-	(label "+3V3_AON"
+	(label "+3V3_SRAM"
 		(at 224.028 25.4 0)
 		(fields_autoplaced yes)
 		(effects
@@ -18993,6 +18798,17 @@
 			(justify left bottom)
 		)
 		(uuid "6cd5a28e-23ac-4c07-a541-238085ab4003")
+	)
+	(label "ADC5"
+		(at 148.59 284.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e4430bc-eb5f-458a-82a8-9ccba3fdaf8e")
 	)
 	(label "ICE_DONE_ADC0"
 		(at 148.59 271.78 0)
@@ -19280,6 +19096,17 @@
 		)
 		(uuid "90437a55-6ab5-4395-ae10-8c99a64da50a")
 	)
+	(label "ADC4"
+		(at 490.22 199.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "921aea59-d376-46e9-893f-70e4f38f0c01")
+	)
 	(label "GPIO14"
 		(at 265.43 195.58 180)
 		(fields_autoplaced yes)
@@ -19456,7 +19283,7 @@
 		)
 		(uuid "9fed93da-8b8f-41c1-bd7e-85ab61a6f033")
 	)
-	(label "+3V3_AON"
+	(label "+3V3_SRAM"
 		(at 233.68 71.12 180)
 		(fields_autoplaced yes)
 		(effects
@@ -19488,6 +19315,17 @@
 			(justify right bottom)
 		)
 		(uuid "a228b4e0-3537-4575-973b-f6d1ed7a8477")
+	)
+	(label "+3V3_SRAM"
+		(at 490.22 196.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a385ff97-d423-4fd6-838f-ff3c9c5614d3")
 	)
 	(label "+3V3_AON"
 		(at 46.99 146.05 180)
@@ -19808,17 +19646,6 @@
 		)
 		(uuid "cb5ac467-dea8-4c19-9566-91f642bd4a1c")
 	)
-	(label "+3V3_AON"
-		(at 490.22 199.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cbcfa061-4607-42c5-bd3e-2b700830731f")
-	)
 	(label "QSPI_SD0"
 		(at 63.5 182.88 0)
 		(fields_autoplaced yes)
@@ -19829,6 +19656,17 @@
 			(justify left bottom)
 		)
 		(uuid "cd23382b-f9df-4808-9338-9df0b951c3a5")
+	)
+	(label "ADC5"
+		(at 510.54 199.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d03c2236-0d80-4284-8c7a-38eb281b107d")
 	)
 	(label "ICE_21"
 		(at 542.29 292.1 180)
@@ -19917,17 +19755,6 @@
 			(justify right bottom)
 		)
 		(uuid "df0e52c5-f205-46c0-80aa-02b65096f4af")
-	)
-	(label "ICE_PWR_EN"
-		(at 148.59 266.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df99e777-ad26-47c7-9027-223297b52152")
 	)
 	(label "QSPI_SD3"
 		(at 97.79 389.89 180)
@@ -20115,6 +19942,17 @@
 			(justify right bottom)
 		)
 		(uuid "f2fb9031-2050-4b6b-8d4f-485349681012")
+	)
+	(label "+3V3_SRAM"
+		(at 154.94 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3d894d3-c266-483b-9fa2-95d29d194923")
 	)
 	(label "ICE_LED_R"
 		(at 431.546 318.77 0)
@@ -28005,72 +27843,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 488.315 194.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1bff660c-1aa8-42c2-8f3d-a43e7b834e33")
-		(property "Reference" "#PWR032"
-			(at 492.125 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 485.14 193.675 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 488.315 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 488.315 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 488.315 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9720e4e1-9cdb-494d-aad4-bf650336a4d5")
-		)
-		(instances
-			(project "pico2-ice"
-				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "UPduino_v3.0:Device_R")
 		(at 57.785 48.26 0)
 		(mirror y)
@@ -29550,73 +29322,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 510.54 194.31 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43a27da1-f66b-42af-a3b0-c01b3bd6e26d")
-		(property "Reference" "#PWR039"
-			(at 506.73 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 513.715 194.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 510.54 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 510.54 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 510.54 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02182c75-94ee-4f08-9ce3-5fa94645dccb")
-		)
-		(instances
-			(project "pico2-ice"
-				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "UPduino_v3.0:power_GND")
 		(at 394.97 365.76 0)
 		(unit 1)
@@ -30165,7 +29870,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 179.07 26.67 0)
+		(at 154.94 29.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30174,7 +29879,7 @@
 		(dnp no)
 		(uuid "50fdbd4d-ecb5-4e6e-b3bd-a8a5f2d5770a")
 		(property "Reference" "#PWR08"
-			(at 179.07 30.48 0)
+			(at 154.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30183,7 +29888,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 178.689 22.2758 0)
+			(at 154.559 24.8158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30191,7 +29896,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 26.67 0)
+			(at 154.94 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30200,7 +29905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 26.67 0)
+			(at 154.94 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30209,7 +29914,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 26.67 0)
+			(at 154.94 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30824,73 +30529,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 488.315 196.85 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ed9ded3-7ccc-49f9-a53b-b4b2663aa7af")
-		(property "Reference" "#PWR038"
-			(at 492.125 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 485.14 196.215 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 488.315 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 488.315 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 488.315 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81b2d422-2381-4c39-bdf8-c5b1d19d7164")
-		)
-		(instances
-			(project "pico2-ice"
-				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 53.975 59.69 0)
 		(unit 1)
@@ -31429,71 +31067,6 @@
 			(project "pico2-ice"
 				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
 					(reference "C42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UPduino_v3.0:power_GND")
-		(at 184.15 284.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6fb360d6-6477-4342-bde7-79727d4bfe46")
-		(property "Reference" "#PWR020"
-			(at 184.15 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.277 288.8742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dcd29744-d268-4a0d-98e2-481712d7577f")
-		)
-		(instances
-			(project "pico2-ice"
-				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -33481,177 +33054,6 @@
 		)
 	)
 	(symbol
-		(lib_id "UPduino_v3.0:Device_C")
-		(at 179.07 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a942a7f9-f18b-4ee9-a81b-145e0f76f959")
-		(property "Reference" "C9"
-			(at 181.991 29.3116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 181.991 31.623 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 180.0352 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 4.7UF 6.3V X5R 0402"
-			(at 179.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key Part Number" ""
-			(at 179.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM155R60J475ME87D"
-			(at 179.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 179.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 179.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cda8a8a1-1df3-4c41-b600-2f0ecfc3666f")
-		)
-		(pin "2"
-			(uuid "928c5e86-3508-4c91-9c92-920cdd539046")
-		)
-		(instances
-			(project "pico2-ice"
-				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UPduino_v3.0:power_GND")
-		(at 165.1 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac037810-eead-4278-b4e9-c8dc13d41442")
-		(property "Reference" "#PWR018"
-			(at 165.1 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.227 43.7642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03b08727-cc85-4b83-b101-2e66ff942d79")
-		)
-		(instances
-			(project "pico2-ice"
-				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 64.77 156.21 0)
 		(unit 1)
@@ -33776,86 +33178,6 @@
 			(project "pico2-ice"
 				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Management:TPS22929D")
-		(at 162.56 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae3e9f10-e819-4640-9f19-b2a5d0ff3e46")
-		(property "Reference" "U4"
-			(at 162.56 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS22929D"
-			(at 162.56 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 162.56 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps22929d.pdf"
-			(at 160.02 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High side, power distribution switch, 1.4V-5.5V, 1.8A, SOT23-6 package"
-			(at 162.56 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8dc3ae4f-49be-4e64-a8de-9552c534e8aa")
-		)
-		(pin "5"
-			(uuid "e282e1f4-5be3-4923-a011-4660109a7446")
-		)
-		(pin "2"
-			(uuid "5646f5c4-e48e-4c29-b14c-4ae84f70add1")
-		)
-		(pin "4"
-			(uuid "201bf9c6-6a4e-457f-8633-fe72721e4373")
-		)
-		(pin "3"
-			(uuid "a62d98c9-fade-4ef7-99c8-640b0f966a03")
-		)
-		(pin "6"
-			(uuid "a2ffdaf1-944b-46ee-87c1-cb427cdce119")
-		)
-		(instances
-			(project "pico2-ice"
-				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -34196,6 +33518,82 @@
 			(project "pico2-ice"
 				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UPduino_v3.0:Device_R")
+		(at 147.32 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3dbab61-e691-4204-9ad9-c3e887363116")
+		(property "Reference" "SJ6"
+			(at 147.32 23.9522 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SHORT"
+			(at 147.32 26.2636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 147.32 27.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
+			(at 147.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a0afc6e-b9eb-45e1-a2ba-82216876f4f4")
+		)
+		(pin "2"
+			(uuid "f5f5a678-d0a3-4d73-82b5-b79845050b7f")
+		)
+		(instances
+			(project "pico2-ice"
+				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
+					(reference "SJ6")
 					(unit 1)
 				)
 			)
@@ -35315,72 +34713,6 @@
 		)
 	)
 	(symbol
-		(lib_id "UPduino_v3.0:power_GND")
-		(at 179.07 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca1c7d52-6e85-4548-b259-eaa4002dfa30")
-		(property "Reference" "#PWR017"
-			(at 179.07 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.197 42.4942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95921a95-cf80-4ed7-bedd-91404d17aa1d")
-		)
-		(instances
-			(project "pico2-ice"
-				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_RaspberryPi_RP2350:RP2350_80QFN")
 		(at 109.22 200.66 0)
 		(unit 1)
@@ -36408,84 +35740,6 @@
 			(project "pico2-ice"
 				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 184.15 278.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "d5492edb-19cc-4d83-bcad-5fb44ef52763")
-		(property "Reference" "R12"
-			(at 185.928 276.9616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 185.928 279.273 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 182.372 278.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DNP"
-			(at 184.15 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24144c56-d54a-4120-bc95-0a9f26cea8e4")
-		)
-		(pin "2"
-			(uuid "73e186b9-68ba-4b6f-8a8a-88051c292cf7")
-		)
-		(instances
-			(project "pico2-ice"
-				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -37622,6 +36876,82 @@
 			(project "pico2-ice"
 				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UPduino_v3.0:Device_R")
+		(at 147.32 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7e9a8f8-6666-4114-87b0-ae2c889794bd")
+		(property "Reference" "SJ7"
+			(at 147.32 31.5722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SHORT"
+			(at 147.32 33.8836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 147.32 35.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
+			(at 147.32 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a69eb9e1-1c40-440b-b649-9fbd9749aa72")
+		)
+		(pin "2"
+			(uuid "bf743655-59fb-4389-8415-819672ec1e07")
+		)
+		(instances
+			(project "pico2-ice"
+				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
+					(reference "SJ7")
 					(unit 1)
 				)
 			)
