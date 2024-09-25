@@ -11183,6 +11183,16 @@
 		)
 		(uuid "12dd97cf-20ed-4947-9e87-a15871418c31")
 	)
+	(polyline
+		(pts
+			(xy 163.195 236.22) (xy 165.735 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13690325-c214-48f7-a41b-f9d9204727ec")
+	)
 	(wire
 		(pts
 			(xy 227.33 201.93) (xy 227.33 209.55)
@@ -11962,6 +11972,16 @@
 			(type default)
 		)
 		(uuid "36f6fecc-c725-4423-9f99-4fa07d127288")
+	)
+	(polyline
+		(pts
+			(xy 163.195 226.695) (xy 165.735 226.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a91fe2-6670-4923-8ce9-325fee390355")
 	)
 	(wire
 		(pts
@@ -13175,16 +13195,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 264.16) (xy 166.37 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ac43011-577b-401e-8386-c4582bc1ab45")
-	)
-	(wire
-		(pts
 			(xy 41.91 33.02) (xy 62.23 33.02)
 		)
 		(stroke
@@ -13605,6 +13615,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 220.98) (xy 166.37 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cfb12fb-297c-43eb-8b96-03cd58b2f683")
+	)
+	(wire
+		(pts
 			(xy 523.24 199.39) (xy 539.75 199.39)
 		)
 		(stroke
@@ -13922,6 +13942,16 @@
 			(type default)
 		)
 		(uuid "8a906c9a-19b0-444a-8e7c-6f65442ee64a")
+	)
+	(polyline
+		(pts
+			(xy 165.735 226.695) (xy 165.735 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aabecd4-9711-40d6-9c88-ae8db28e960f")
 	)
 	(wire
 		(pts
@@ -14262,16 +14292,6 @@
 			(type default)
 		)
 		(uuid "9a44b202-f0ce-4daf-9c8f-3fb30fe4ec28")
-	)
-	(wire
-		(pts
-			(xy 146.05 264.16) (xy 156.21 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a584235-3dc9-422d-a7e4-29b4f166822d")
 	)
 	(wire
 		(pts
@@ -14805,7 +14825,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 220.98) (xy 146.05 220.98)
+			(xy 146.05 220.98) (xy 156.21 220.98)
 		)
 		(stroke
 			(width 0)
@@ -15815,6 +15835,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 264.16) (xy 146.05 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff35894-d110-4457-9081-31571ae1e8f9")
+	)
+	(wire
+		(pts
 			(xy 129.54 29.845) (xy 129.54 29.21)
 		)
 		(stroke
@@ -16447,6 +16477,38 @@
 		)
 		(uuid 36508678-e65c-41c1-9ba7-04ba6646ff42)
 	)
+	(text "Suggested SPI port to FPGA"
+		(exclude_from_sim no)
+		(at 180.086 231.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "01e08327-42d9-47d3-bf72-764eaf22e841")
+	)
+	(text "SCK1"
+		(exclude_from_sim no)
+		(at 128.778 244.8725 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01e2a9ee-7f72-4ca5-b85c-94ac386d1657")
+	)
+	(text "MOSI1"
+		(exclude_from_sim no)
+		(at 128.524 267.6995 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06c8c27c-758c-433b-b85a-34cfd362ebc3")
+	)
 	(text "Tx"
 		(exclude_from_sim no)
 		(at 530.225 72.39 0)
@@ -16510,6 +16572,17 @@
 		)
 		(uuid "18ee6d55-7f27-45eb-adeb-0c3ac6843e73")
 	)
+	(text "SCK0"
+		(exclude_from_sim no)
+		(at 128.778 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b00bb52-211c-44e0-a1f6-5b01c613f0fa")
+	)
 	(text "Place R4/R5 close to RP2040"
 		(exclude_from_sim no)
 		(at 148.59 154.94 0)
@@ -16544,6 +16617,17 @@
 		)
 		(uuid "28008ba2-6ff4-456f-b4a0-74dd82273ae2")
 	)
+	(text "SSn1"
+		(exclude_from_sim no)
+		(at 128.5515 262.6398 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2921423a-00d3-4421-af7b-fc162aa2dc56")
+	)
 	(text "SSn"
 		(exclude_from_sim no)
 		(at 525.8075 46.9938 0)
@@ -16554,6 +16638,17 @@
 			(justify left bottom)
 		)
 		(uuid "2de22924-c2c6-4fb6-8159-131782586c30")
+	)
+	(text "SCK0"
+		(exclude_from_sim no)
+		(at 128.778 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "302d6e07-303c-404e-9fee-6a0efe5b080d")
 	)
 	(text "SCK"
 		(exclude_from_sim no)
@@ -16579,7 +16674,7 @@
 	)
 	(text "MOSI0"
 		(exclude_from_sim no)
-		(at 129.5125 186.4487 0)
+		(at 129.2585 186.4322 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16601,17 +16696,6 @@
 		)
 		(uuid "36a7b231-413e-40e6-ba93-dd89fd72c8ce")
 	)
-	(text "FPGA Clock"
-		(exclude_from_sim no)
-		(at 177.292 264.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "38dac5f1-19d0-4d51-8fb6-d8e2743dd50c")
-	)
 	(text "Default is RESET"
 		(exclude_from_sim no)
 		(at 182.245 375.285 0)
@@ -16625,7 +16709,7 @@
 	)
 	(text "MISO1"
 		(exclude_from_sim no)
-		(at 129.54 199.1525 0)
+		(at 129.286 199.136 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16644,6 +16728,17 @@
 			(justify left bottom)
 		)
 		(uuid "400c31ad-dcba-4c01-b88b-64c5d5af979d")
+	)
+	(text "MOSI1"
+		(exclude_from_sim no)
+		(at 128.778 247.396 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40aa6b44-7087-47e6-aaff-b625f543a6ef")
 	)
 	(text "Bank 1 is 3.3V IO!"
 		(exclude_from_sim no)
@@ -16679,6 +16774,17 @@
 		)
 		(uuid "4684e28d-411f-4513-a536-0941bcdc9c20")
 	)
+	(text "MISO1"
+		(exclude_from_sim no)
+		(at 128.5515 260.0833 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4723bd89-f2ce-4805-a7e5-f49420a5d661")
+	)
 	(text "Bank 2"
 		(exclude_from_sim no)
 		(at 471.17 172.72 0)
@@ -16691,6 +16797,17 @@
 			(justify right bottom)
 		)
 		(uuid "4798107d-a7de-4ce0-bd04-41e11c300aca")
+	)
+	(text "SCK1"
+		(exclude_from_sim no)
+		(at 128.524 265.176 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50c76bd0-1f2d-40d7-9fa4-84a34a14efcb")
 	)
 	(text "https://datasheets.raspberrypi.com/rp2350/hardware-design-with-rp2350.pdf"
 		(exclude_from_sim no)
@@ -16705,7 +16822,7 @@
 	)
 	(text "CSn0"
 		(exclude_from_sim no)
-		(at 129.54 181.389 0)
+		(at 129.286 181.3725 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16773,6 +16890,17 @@
 		)
 		(uuid "5ba05e19-f3fe-4295-ba1a-abb5a532e4b3")
 	)
+	(text "SSn1"
+		(exclude_from_sim no)
+		(at 128.778 232.156 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bd1d981-783d-4d6e-ab17-2028cfc77461")
+	)
 	(text "iCE Misc"
 		(exclude_from_sim no)
 		(at 386.08 65.405 0)
@@ -16788,7 +16916,7 @@
 	)
 	(text "MOSI0"
 		(exclude_from_sim no)
-		(at 129.485 176.2849 0)
+		(at 129.231 176.2684 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16796,6 +16924,17 @@
 			(justify left bottom)
 		)
 		(uuid "5e505ac8-cb1b-46af-9d65-b2855bad435a")
+	)
+	(text "MISO0"
+		(exclude_from_sim no)
+		(at 128.8055 209.5373 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f19dde5-ca2d-4e71-943d-dd8736e0b0e2")
 	)
 	(text "Clock-"
 		(exclude_from_sim no)
@@ -16809,7 +16948,7 @@
 	)
 	(text "SCK1"
 		(exclude_from_sim no)
-		(at 129.54 204.2325 0)
+		(at 129.032 204.216 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16820,7 +16959,7 @@
 	)
 	(text "SSn1"
 		(exclude_from_sim no)
-		(at 129.5675 201.6963 0)
+		(at 129.0595 201.6798 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16842,7 +16981,7 @@
 	)
 	(text "MISO1"
 		(exclude_from_sim no)
-		(at 129.54 188.976 0)
+		(at 129.286 188.9595 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16863,6 +17002,17 @@
 			(justify left bottom)
 		)
 		(uuid "7083757c-92c1-4737-91e4-970506fc35d0")
+	)
+	(text "MISO1"
+		(exclude_from_sim no)
+		(at 128.778 239.7925 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71a5b791-70ec-4370-95b9-db86947dc4df")
 	)
 	(text "SSn"
 		(exclude_from_sim no)
@@ -16927,7 +17077,7 @@
 	)
 	(text "SCK0"
 		(exclude_from_sim no)
-		(at 129.5125 183.9252 0)
+		(at 129.2585 183.9087 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16959,6 +17109,17 @@
 			(justify right bottom)
 		)
 		(uuid "8474393b-b45e-4b9e-840f-174d1375fb8f")
+	)
+	(text "MOSI0"
+		(exclude_from_sim no)
+		(at 128.778 217.1535 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "854ed8f1-8821-44f5-bc48-33df046de8b2")
 	)
 	(text "Note:\nSet the GPIO high to enable power to the \nreference when the ADC needs to be calibrated.\nRemove resistors to use the ADC on the external pins."
 		(exclude_from_sim no)
@@ -17008,7 +17169,7 @@
 	)
 	(text "MISO0"
 		(exclude_from_sim no)
-		(at 129.5125 178.8452 0)
+		(at 129.2585 178.8287 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17027,9 +17188,31 @@
 		)
 		(uuid "8bd8925f-5132-43f2-9705-c4fde05de47a")
 	)
+	(text "SCK1"
+		(exclude_from_sim no)
+		(at 128.7505 234.6922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e07232c-62aa-4aa6-a0ca-680aa2ae43f3")
+	)
+	(text "MISO0"
+		(exclude_from_sim no)
+		(at 128.579 249.9271 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f506c15-ed9e-4f22-b53c-d6322899cc65")
+	)
 	(text "MOSI1"
 		(exclude_from_sim no)
-		(at 129.54 206.756 0)
+		(at 129.032 206.7395 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17051,7 +17234,7 @@
 	)
 	(text "SCK1"
 		(exclude_from_sim no)
-		(at 129.5125 194.0687 0)
+		(at 129.2585 194.0522 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17062,7 +17245,7 @@
 	)
 	(text "SCK0"
 		(exclude_from_sim no)
-		(at 129.485 173.7614 0)
+		(at 129.231 173.7449 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17083,6 +17266,17 @@
 			(justify left bottom)
 		)
 		(uuid "9b82543c-808e-456c-aa17-fd070d173592")
+	)
+	(text "MISO0"
+		(exclude_from_sim no)
+		(at 128.8055 219.6973 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bc82fa4-e29a-448a-9e00-61321313210d")
 	)
 	(text "Bank 0"
 		(exclude_from_sim no)
@@ -17146,7 +17340,7 @@
 	)
 	(text "MISO0"
 		(exclude_from_sim no)
-		(at 129.5125 168.6687 0)
+		(at 129.2585 168.6522 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17170,7 +17364,7 @@
 	)
 	(text "CSn0"
 		(exclude_from_sim no)
-		(at 129.5125 171.2252 0)
+		(at 129.2585 171.2087 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17189,6 +17383,17 @@
 			(justify left bottom)
 		)
 		(uuid "a9188f41-ee44-4548-885c-7254c7488291")
+	)
+	(text "CSn0"
+		(exclude_from_sim no)
+		(at 128.579 252.7376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1e0f814-b9c8-446e-ac10-7cc9b2cef494")
 	)
 	(text "iCE Flash"
 		(exclude_from_sim no)
@@ -17212,6 +17417,17 @@
 			)
 		)
 		(uuid "ba81af9a-e478-4c63-82b4-cd66a5ccf705")
+	)
+	(text "MOSI0"
+		(exclude_from_sim no)
+		(at 128.778 227.3135 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc184c9e-cdba-4943-b9d0-ae7dcc00c80b")
 	)
 	(text "PICO Button"
 		(exclude_from_sim no)
@@ -17247,9 +17463,20 @@
 		)
 		(uuid "c0b8b18d-bd78-49ad-b1f2-963019527018")
 	)
+	(text "SCK0"
+		(exclude_from_sim no)
+		(at 128.5515 255.2738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0fb5a71-f663-4237-acbd-9212ea2a5d88")
+	)
 	(text "MOSI1"
 		(exclude_from_sim no)
-		(at 129.5125 196.5922 0)
+		(at 129.2585 196.5757 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17281,6 +17508,17 @@
 			(justify left bottom)
 		)
 		(uuid "c43bd0f3-abaf-4ac9-adcb-cbe9166e41a1")
+	)
+	(text "SSn1"
+		(exclude_from_sim no)
+		(at 128.8055 242.3363 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4e50ef6-1ede-4673-a27d-2995bc47f566")
 	)
 	(text "Bank 1"
 		(exclude_from_sim no)
@@ -17316,6 +17554,17 @@
 		)
 		(uuid "cbccfcc8-7b01-4a36-a37b-9eea9d2bdba9")
 	)
+	(text "MISO1"
+		(exclude_from_sim no)
+		(at 128.778 229.5995 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc952f8d-5894-47ea-9a9c-90a1610adb7b")
+	)
 	(text "FPGA Flash"
 		(exclude_from_sim no)
 		(at 516.001 260.985 0)
@@ -17328,6 +17577,17 @@
 			(justify left bottom)
 		)
 		(uuid "d0ba5ec0-1eb4-494d-a979-8da85c68e4ee")
+	)
+	(text "FPGA Clock"
+		(exclude_from_sim no)
+		(at 177.292 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2294696-0a3a-447a-8fc9-9efd5c452b6f")
 	)
 	(text "Power monitor"
 		(exclude_from_sim no)
@@ -17393,6 +17653,17 @@
 		)
 		(uuid "dda126b4-bd58-4f0c-9cfd-a67017ec5382")
 	)
+	(text "MOSI0"
+		(exclude_from_sim no)
+		(at 128.5515 257.7973 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e64e48a3-360e-40bf-a09f-8507a7350fac")
+	)
 	(text "Raspberry Pico"
 		(exclude_from_sim no)
 		(at 97.282 107.95 0)
@@ -17405,6 +17676,17 @@
 			(justify left bottom)
 		)
 		(uuid "e7913962-65b0-404a-819d-223085a79b76")
+	)
+	(text "CSn0"
+		(exclude_from_sim no)
+		(at 128.8055 222.2538 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef377d7f-88f0-4e1a-b423-6a3e4f31af80")
 	)
 	(text "GPIO"
 		(exclude_from_sim no)
@@ -17426,9 +17708,31 @@
 		)
 		(uuid "f0362491-a69d-4fb2-83c7-be0f71c06293")
 	)
+	(text "CSn0"
+		(exclude_from_sim no)
+		(at 128.8055 212.0938 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5fd4e73-ac6c-4495-be51-bc22accd446b")
+	)
+	(text "MOSI1"
+		(exclude_from_sim no)
+		(at 128.7505 237.2157 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7852628-b236-4189-83b4-ac6eb411b6e7")
+	)
 	(text "SSn1"
 		(exclude_from_sim no)
-		(at 129.54 191.5325 0)
+		(at 129.286 191.516 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17526,8 +17830,8 @@
 		)
 		(uuid "035351d9-ba9a-4e74-b931-9eaa87050d60")
 	)
-	(label "PICO_PMOD_A3"
-		(at 148.59 218.44 0)
+	(label "PICO_PMOD_A1"
+		(at 148.59 241.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17535,7 +17839,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "035abc16-318a-48c6-9e7c-60f4975f6f78")
+		(uuid "0401458d-e487-43ba-8a00-7f08e385f1bd")
 	)
 	(label "ICE_SO"
 		(at 513.715 41.91 0)
@@ -17547,6 +17851,17 @@
 			(justify left bottom)
 		)
 		(uuid "04c9e2e1-e1f0-4292-87a2-9ccff66b3674")
+	)
+	(label "ICE_35_G0"
+		(at 166.37 220.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04e857ac-ee4a-43cd-8898-5a50785f15b2")
 	)
 	(label "GPIO17"
 		(at 148.59 210.82 0)
@@ -17591,6 +17906,17 @@
 			(justify right bottom)
 		)
 		(uuid "0885ac06-98ef-4fea-a1f0-00725bb688fb")
+	)
+	(label "PICO_PMOD_A4"
+		(at 148.59 243.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ac1de1a-7ea1-4b3e-80ad-836f7862918a")
 	)
 	(label "ICE_10|PB"
 		(at 421.64 67.31 180)
@@ -17691,17 +18017,6 @@
 		)
 		(uuid "12886b97-65fb-46a8-8ff9-c34e466414eb")
 	)
-	(label "ICE_27"
-		(at 148.59 238.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "12b1fefc-a116-4939-bd00-1fb595c0a6c2")
-	)
 	(label "LED_R"
 		(at 154.94 367.03 0)
 		(fields_autoplaced yes)
@@ -17723,17 +18038,6 @@
 			(justify right bottom)
 		)
 		(uuid "148afabc-7044-40ae-90f9-43c6a10f61d6")
-	)
-	(label "PICO_PMOD_B1"
-		(at 148.59 231.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1505a3ec-7e8c-4fd3-a1f2-da4f0c20691e")
 	)
 	(label "ADC7"
 		(at 421.64 90.17 180)
@@ -17789,6 +18093,28 @@
 			(justify right bottom)
 		)
 		(uuid "1a8136ce-f006-46b1-a807-4ecc12363ad8")
+	)
+	(label "ICE_27"
+		(at 148.59 218.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b444a54-a0f1-4b3d-9fd6-fa3175a72f1c")
+	)
+	(label "ICE_23"
+		(at 148.59 231.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b760bc9-ea5d-438e-8505-a97f18f029a7")
 	)
 	(label "ADC2|PB"
 		(at 193.04 372.11 0)
@@ -17878,8 +18204,8 @@
 		)
 		(uuid "259a40bd-bdd2-4109-abb1-dd55561eb990")
 	)
-	(label "PICO_PMOD_B3"
-		(at 148.59 228.6 0)
+	(label "PICO_PMOD_B4"
+		(at 148.59 254 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17887,7 +18213,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "25f348d6-a3dd-4d44-b5fa-74affb97c4d9")
+		(uuid "264e8896-0b55-4094-b432-c9f642358581")
 	)
 	(label "+3V3"
 		(at 223.52 186.69 180)
@@ -17977,17 +18303,6 @@
 		)
 		(uuid "34adfc88-8ce3-468b-88c4-a8653ea10312")
 	)
-	(label "ICE_21"
-		(at 148.59 243.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36a381db-2173-4024-9e7d-f0547fb74689")
-	)
 	(label "ICE_SI"
 		(at 493.395 44.45 180)
 		(fields_autoplaced yes)
@@ -18020,6 +18335,17 @@
 			(justify right bottom)
 		)
 		(uuid "37eb0740-4a26-4276-aff0-937e925fc5c6")
+	)
+	(label "PICO_PMOD_A3"
+		(at 148.59 238.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39c743db-cb54-4d21-ad10-7d1ed4ea2ffe")
 	)
 	(label "ADC5|VREF"
 		(at 494.03 90.17 180)
@@ -18054,6 +18380,17 @@
 		)
 		(uuid "3c6f00c2-122f-4dcf-b520-68854df60354")
 	)
+	(label "PICO_PMOD_B1"
+		(at 148.59 251.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "409aaefb-51eb-4b80-bbad-e602acf61d78")
+	)
 	(label "ICE_38"
 		(at 435.61 215.9 180)
 		(fields_autoplaced yes)
@@ -18064,6 +18401,17 @@
 			(justify right bottom)
 		)
 		(uuid "40a38497-282c-42ec-8611-cb61ab97863d")
+	)
+	(label "ICE_21"
+		(at 148.59 223.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "413b17a6-8c66-4e9d-b1cc-4b802d3fff7a")
 	)
 	(label "ICE_26"
 		(at 435.61 193.04 180)
@@ -18230,6 +18578,17 @@
 		)
 		(uuid "4a3580f2-3d01-458e-9b26-8fa76a140357")
 	)
+	(label "PICO_PMOD_A2"
+		(at 148.59 246.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bf2324d-2fa1-4604-bbb9-533d2623d767")
+	)
 	(label "ICE_SI"
 		(at 148.59 177.8 0)
 		(fields_autoplaced yes)
@@ -18318,17 +18677,6 @@
 		)
 		(uuid "53a2ceb5-48f0-46a8-807d-00e208ea9776")
 	)
-	(label "ICE_25"
-		(at 148.59 241.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "544fe144-ab0f-4e73-b06d-0f8fe3cfdd28")
-	)
 	(label "ICE_23"
 		(at 513.715 46.99 0)
 		(fields_autoplaced yes)
@@ -18351,17 +18699,6 @@
 		)
 		(uuid "5618931e-46e5-419b-830c-48951240122a")
 	)
-	(label "PICO_PMOD_A4"
-		(at 148.59 223.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "562261ea-5c39-4a79-9539-c33385801ff4")
-	)
 	(label "ICE_19"
 		(at 493.395 49.53 180)
 		(fields_autoplaced yes)
@@ -18372,17 +18709,6 @@
 			(justify right bottom)
 		)
 		(uuid "579b2c68-1f4b-4351-b127-31136cc2fb3a")
-	)
-	(label "ICE_18"
-		(at 148.59 256.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57c71676-0cbf-45f3-8984-fe91480e421b")
 	)
 	(label "ICE_SCK"
 		(at 165.735 182.88 0)
@@ -18538,17 +18864,6 @@
 		)
 		(uuid "6557b3ad-6cc0-4bab-b020-0e134ff7b769")
 	)
-	(label "ICE_23"
-		(at 148.59 251.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6580bf8b-eca1-4d5e-965d-671f8eb88509")
-	)
 	(label "QSPI_SD1"
 		(at 100.33 347.345 180)
 		(fields_autoplaced yes)
@@ -18581,17 +18896,6 @@
 			(justify left bottom)
 		)
 		(uuid "6598ca79-fb99-429e-a20f-1f43224649ae")
-	)
-	(label "ICE_19"
-		(at 148.59 246.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "66a45206-c9ad-4cdf-9a1a-55e87249303b")
 	)
 	(label "ADC3"
 		(at 148.59 279.4 0)
@@ -18736,17 +19040,6 @@
 		)
 		(uuid "739dc8e7-c939-4aef-b4c9-59276ecc49fa")
 	)
-	(label "PICO_PMOD_B2"
-		(at 148.59 236.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "740dd4f8-21e4-457a-95a6-059d465cca9a")
-	)
 	(label "ADC2|PB"
 		(at 148.59 276.86 0)
 		(fields_autoplaced yes)
@@ -18802,6 +19095,17 @@
 		)
 		(uuid "7dff647e-d450-46e3-92b5-f10ecbfd7e16")
 	)
+	(label "ICE_25"
+		(at 148.59 264.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80918b22-55de-4105-a153-bc7c57b57c74")
+	)
 	(label "GPIO18"
 		(at 148.59 213.36 0)
 		(fields_autoplaced yes)
@@ -18823,17 +19127,6 @@
 			(justify right bottom)
 		)
 		(uuid "82e6834a-7371-4195-b448-979beb903620")
-	)
-	(label "PICO_PMOD_A1"
-		(at 148.59 220.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "84d9a9cb-3076-4a07-932b-83174a09072f")
 	)
 	(label "ICE_45"
 		(at 487.68 195.58 180)
@@ -18867,6 +19160,17 @@
 			(justify left bottom)
 		)
 		(uuid "8db2d478-b510-4d9a-8024-82caaec6ed1b")
+	)
+	(label "ICE_19"
+		(at 148.59 226.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e57781f-2ac9-4991-81fd-e9bdc546aba8")
 	)
 	(label "SDA_GPIO2"
 		(at 148.59 172.72 0)
@@ -18988,17 +19292,6 @@
 			(justify left bottom)
 		)
 		(uuid "987a7207-92ad-43e5-83cf-f5ebd4ab1bab")
-	)
-	(label "ICE_20_G3"
-		(at 148.59 254 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99bc6eb8-9754-414d-b93a-61a86e17b80c")
 	)
 	(label "ICE_SCK"
 		(at 513.715 44.45 0)
@@ -19132,17 +19425,6 @@
 		)
 		(uuid "a2a1c2ad-c8c6-4b6f-81a9-705d892170b0")
 	)
-	(label "ICE_35_G0"
-		(at 166.37 264.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4b4d587-7829-4922-ab0f-3efc9dd44683")
-	)
 	(label "ICE_43"
 		(at 435.61 213.36 180)
 		(fields_autoplaced yes)
@@ -19165,6 +19447,17 @@
 		)
 		(uuid "a824f345-d770-4bf9-b08e-75576b172b9d")
 	)
+	(label "ICE_26"
+		(at 148.59 228.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a94b9e93-3de9-402a-bed3-ce94a4058606")
+	)
 	(label "XIN"
 		(at 68.58 203.2 180)
 		(fields_autoplaced yes)
@@ -19186,6 +19479,17 @@
 			(justify right bottom)
 		)
 		(uuid "afa8f267-ddb3-41f1-a5b4-358175f148a9")
+	)
+	(label "PICO_PMOD_B2"
+		(at 148.59 256.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b00c1dc1-a874-429a-a121-9b8eb9215b60")
 	)
 	(label "SCL_GPIO3"
 		(at 223.52 191.77 180)
@@ -19231,17 +19535,6 @@
 		)
 		(uuid "b4cbd209-c1f5-4a8f-8f4d-e0f232a5db92")
 	)
-	(label "PICO_PMOD_B4"
-		(at 148.59 233.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b56ef0cd-71b6-4c98-a03a-f3b8fbae8b30")
-	)
 	(label "~{RESET}"
 		(at 446.405 85.09 0)
 		(fields_autoplaced yes)
@@ -19286,6 +19579,28 @@
 		)
 		(uuid "b9f0cc02-2eb6-4c8e-ae04-033506b4e650")
 	)
+	(label "ICE_20_G3"
+		(at 148.59 233.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba2172fc-a0a3-4f6b-9e3e-e843f3407d54")
+	)
+	(label "PICO_PMOD_B3"
+		(at 148.59 248.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "badafe23-6379-478f-a637-d522ed6e86e8")
+	)
 	(label "ICE_13|IO3"
 		(at 539.75 201.93 180)
 		(fields_autoplaced yes)
@@ -19307,17 +19622,6 @@
 			(justify right bottom)
 		)
 		(uuid "bc3a1a86-09da-4c48-88e1-9ad039b07234")
-	)
-	(label "ICE_26"
-		(at 148.59 248.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc630b6a-50c4-49b9-8e01-31cf512cccab")
 	)
 	(label "SCL_GPIO3"
 		(at 421.64 87.63 180)
@@ -19362,6 +19666,17 @@
 			(justify right bottom)
 		)
 		(uuid "be95627f-d2b5-49af-9a10-8d32ae86c82f")
+	)
+	(label "ICE_18"
+		(at 148.59 236.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0247264-bb7a-48a7-a402-622aaef42a15")
 	)
 	(label "ICE_20_G3"
 		(at 513.715 54.61 0)
@@ -19483,17 +19798,6 @@
 			(justify left bottom)
 		)
 		(uuid "d8cedbf0-33bf-4046-b426-b278525a4a62")
-	)
-	(label "PICO_PMOD_A2"
-		(at 148.59 226.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8f2634e-2763-49eb-b725-2114010ece10")
 	)
 	(label "LED_G"
 		(at 148.59 167.64 0)
@@ -26732,109 +27036,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 160.02 264.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "087d3cf9-9948-4b6d-a3f5-f1df2ed42d31")
-		(property "Reference" "R6"
-			(at 164.465 265.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27"
-			(at 160.02 264.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 160.02 262.382 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 27 OHM 1% 1/16W 0402"
-			(at 160.02 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key Part Number" ""
-			(at 160.02 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402FR-0727RL"
-			(at 160.02 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 160.02 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 160.02 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75268b88-d849-4e55-8780-67ceb76ab0aa")
-		)
-		(pin "2"
-			(uuid "8102d31d-7b9b-44ba-94ff-4e1a7bead8d8")
-		)
-		(instances
-			(project "pico2-ice"
-				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "UPduino_v3.0:Device_R")
 		(at 66.04 58.42 0)
 		(mirror y)
@@ -27499,6 +27700,109 @@
 			(project "pico2-ice"
 				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
 					(reference "SJ2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 220.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "117e0263-04a2-41ec-9c8a-1a6c88e877e5")
+		(property "Reference" "R6"
+			(at 164.465 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27"
+			(at 160.02 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 160.02 219.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 27 OHM 1% 1/16W 0402"
+			(at 160.02 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 160.02 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0727RL"
+			(at 160.02 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 160.02 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 160.02 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2932b91-750d-4b66-b89b-04c60b31af90")
+		)
+		(pin "2"
+			(uuid "da7c0d1f-8ce0-4913-a39e-f2473b5d3190")
+		)
+		(instances
+			(project "pico2-ice"
+				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
+					(reference "R6")
 					(unit 1)
 				)
 			)
