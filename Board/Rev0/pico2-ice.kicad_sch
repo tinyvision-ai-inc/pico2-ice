@@ -16596,7 +16596,7 @@
 	)
 	(text "GPIO19"
 		(exclude_from_sim no)
-		(at 202.184 236.982 0)
+		(at 211.074 236.728 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16753,7 +16753,7 @@
 	)
 	(text "GPIO16"
 		(exclude_from_sim no)
-		(at 201.93 226.568 0)
+		(at 210.82 226.314 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16938,7 +16938,7 @@
 	)
 	(text "GPIO15"
 		(exclude_from_sim no)
-		(at 201.422 221.742 0)
+		(at 210.312 221.488 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17410,7 +17410,7 @@
 	)
 	(text "GPIO18"
 		(exclude_from_sim no)
-		(at 202.184 234.442 0)
+		(at 211.074 234.188 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17546,7 +17546,7 @@
 	)
 	(text "GPIO14"
 		(exclude_from_sim no)
-		(at 201.422 219.202 0)
+		(at 210.312 218.948 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17612,7 +17612,7 @@
 	)
 	(text "GPIO12"
 		(exclude_from_sim no)
-		(at 201.676 211.328 0)
+		(at 210.566 211.074 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17622,7 +17622,7 @@
 	)
 	(text "GPIO17"
 		(exclude_from_sim no)
-		(at 201.93 229.108 0)
+		(at 210.82 228.854 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17690,7 +17690,7 @@
 	)
 	(text "GPIO"
 		(exclude_from_sim no)
-		(at 207.264 196.088 0)
+		(at 211.582 196.088 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17700,7 +17700,7 @@
 	)
 	(text "GPIO13"
 		(exclude_from_sim no)
-		(at 201.676 213.868 0)
+		(at 210.566 213.614 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17743,7 +17743,7 @@
 	)
 	(text "GPIO"
 		(exclude_from_sim no)
-		(at 207.264 198.628 0)
+		(at 211.582 198.628 0)
 		(effects
 			(font
 				(size 1.27 1.27)
