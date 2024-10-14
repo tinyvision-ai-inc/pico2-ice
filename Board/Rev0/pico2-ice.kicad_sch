@@ -16594,9 +16594,9 @@
 		)
 		(uuid "2400b3ad-2e9c-44b9-9d13-b0cd6d45ed08")
 	)
-	(text "Lane0-"
+	(text "GPIO19"
 		(exclude_from_sim no)
-		(at 209.296 236.982 0)
+		(at 202.184 236.982 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16751,9 +16751,9 @@
 		)
 		(uuid "412a978b-ec43-4529-a7ac-03568546534e")
 	)
-	(text "Lane1+"
+	(text "GPIO16"
 		(exclude_from_sim no)
-		(at 209.042 226.568 0)
+		(at 201.93 226.568 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16936,9 +16936,9 @@
 		)
 		(uuid "5f19dde5-ca2d-4e71-943d-dd8736e0b0e2")
 	)
-	(text "Clock-"
+	(text "GPIO15"
 		(exclude_from_sim no)
-		(at 208.534 221.742 0)
+		(at 201.422 221.742 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17408,9 +17408,9 @@
 		)
 		(uuid "b881b749-a4e6-48aa-a316-448fad3fb5cc")
 	)
-	(text "Lane0+"
+	(text "GPIO18"
 		(exclude_from_sim no)
-		(at 209.296 234.442 0)
+		(at 202.184 234.442 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17544,9 +17544,9 @@
 		)
 		(uuid "caf140bb-043f-4e82-846b-61de3f84089a")
 	)
-	(text "Clock+"
+	(text "GPIO14"
 		(exclude_from_sim no)
-		(at 208.534 219.202 0)
+		(at 201.422 219.202 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17610,9 +17610,9 @@
 		)
 		(uuid "db38842f-2b38-4529-9c50-cfdc597831e6")
 	)
-	(text "Lane2-"
+	(text "GPIO12"
 		(exclude_from_sim no)
-		(at 208.788 211.328 0)
+		(at 201.676 211.328 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17620,9 +17620,9 @@
 		)
 		(uuid "dbb6993c-7e94-4264-90a7-0e80f04457df")
 	)
-	(text "Lane1-"
+	(text "GPIO17"
 		(exclude_from_sim no)
-		(at 209.042 229.108 0)
+		(at 201.93 229.108 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17698,9 +17698,9 @@
 		)
 		(uuid "ef89a1b0-62d6-4214-8761-628ef46fee00")
 	)
-	(text "Lane2+"
+	(text "GPIO13"
 		(exclude_from_sim no)
-		(at 208.788 213.868 0)
+		(at 201.676 213.868 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17819,7 +17819,7 @@
 		)
 		(uuid "0231cd6a-5bb7-40dc-8ada-90dea6890d61")
 	)
-	(label "GPIO12"
+	(label "Lane2_N"
 		(at 223.52 212.09 180)
 		(fields_autoplaced yes)
 		(effects
@@ -17863,7 +17863,7 @@
 		)
 		(uuid "04e857ac-ee4a-43cd-8898-5a50785f15b2")
 	)
-	(label "GPIO17"
+	(label "Lane1_N"
 		(at 148.59 210.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -18237,7 +18237,7 @@
 		)
 		(uuid "2a689cc2-e77c-4aba-8d48-9780b20bc421")
 	)
-	(label "GPIO16"
+	(label "Lane1_P"
 		(at 148.59 208.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -18369,7 +18369,7 @@
 		)
 		(uuid "3bb312a8-9fbd-4528-8834-08789fe367ca")
 	)
-	(label "GPIO19"
+	(label "Lane0_N"
 		(at 148.59 215.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -18435,7 +18435,7 @@
 		)
 		(uuid "431986bb-c75d-455e-9423-5582001dcb7b")
 	)
-	(label "GPIO17"
+	(label "Lane1_N"
 		(at 223.52 229.87 180)
 		(fields_autoplaced yes)
 		(effects
@@ -18765,7 +18765,7 @@
 		)
 		(uuid "5a027a6f-5c27-4292-a69b-35762b7eb5e0")
 	)
-	(label "ICE_45"
+	(label "ICE_47"
 		(at 447.04 74.93 0)
 		(fields_autoplaced yes)
 		(effects
@@ -18787,7 +18787,7 @@
 		)
 		(uuid "5cc953ce-79a0-43e8-9980-586a9719690a")
 	)
-	(label "GPIO15"
+	(label "Clock_N"
 		(at 223.52 222.25 180)
 		(fields_autoplaced yes)
 		(effects
@@ -19018,7 +19018,7 @@
 		)
 		(uuid "72271fbb-efac-4e36-acfe-d89970de5c9b")
 	)
-	(label "GPIO19"
+	(label "Lane0_N"
 		(at 223.52 237.49 180)
 		(fields_autoplaced yes)
 		(effects
@@ -19029,7 +19029,7 @@
 		)
 		(uuid "72ef0b75-7a58-4355-b128-7ceab4ffe6a4")
 	)
-	(label "GPIO16"
+	(label "Lane1_P"
 		(at 223.52 227.33 180)
 		(fields_autoplaced yes)
 		(effects
@@ -19106,7 +19106,7 @@
 		)
 		(uuid "80918b22-55de-4105-a153-bc7c57b57c74")
 	)
-	(label "GPIO18"
+	(label "Lane0_P"
 		(at 148.59 213.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -19183,7 +19183,7 @@
 		)
 		(uuid "8e67cbec-fdaa-4432-8330-61e6aef9a8dc")
 	)
-	(label "GPIO14"
+	(label "Clock_P"
 		(at 148.59 203.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -19216,7 +19216,7 @@
 		)
 		(uuid "90437a55-6ab5-4395-ae10-8c99a64da50a")
 	)
-	(label "GPIO14"
+	(label "Clock_P"
 		(at 223.52 219.71 180)
 		(fields_autoplaced yes)
 		(effects
@@ -19326,7 +19326,7 @@
 		)
 		(uuid "9b9e1b13-37bd-49c5-8115-753b681d45bd")
 	)
-	(label "GPIO12"
+	(label "Lane2_N"
 		(at 148.59 198.12 0)
 		(fields_autoplaced yes)
 		(effects
@@ -19359,7 +19359,7 @@
 		)
 		(uuid "9e2ae292-4a23-4b8f-92c6-04073c6b6d1c")
 	)
-	(label "ICE_48"
+	(label "ICE_44_G6"
 		(at 421.64 80.01 180)
 		(fields_autoplaced yes)
 		(effects
@@ -19381,7 +19381,7 @@
 		)
 		(uuid "9ee294b7-b310-4b7c-98d5-bc82d334f9e4")
 	)
-	(label "GPIO13"
+	(label "Lane2_P"
 		(at 223.52 214.63 180)
 		(fields_autoplaced yes)
 		(effects
@@ -19568,7 +19568,7 @@
 		)
 		(uuid "b795f51a-7da5-4bf4-8e21-4b216840bdb7")
 	)
-	(label "ICE_44_G6"
+	(label "ICE_48"
 		(at 421.64 74.93 180)
 		(fields_autoplaced yes)
 		(effects
@@ -19722,7 +19722,7 @@
 		)
 		(uuid "c72b59a6-4c8a-4d55-a671-f789e0b50f11")
 	)
-	(label "GPIO18"
+	(label "Lane0_P"
 		(at 223.52 234.95 180)
 		(fields_autoplaced yes)
 		(effects
@@ -19733,7 +19733,7 @@
 		)
 		(uuid "c773470d-cf46-4fd8-945f-1b139a1c68bd")
 	)
-	(label "GPIO13"
+	(label "Lane2_P"
 		(at 148.59 200.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -20008,7 +20008,7 @@
 		)
 		(uuid "f28c0bd9-ae6d-4f9c-ba7f-1e038037a068")
 	)
-	(label "GPIO15"
+	(label "Clock_N"
 		(at 148.59 205.74 0)
 		(fields_autoplaced yes)
 		(effects
@@ -20085,7 +20085,7 @@
 		)
 		(uuid "f81f67be-7381-4323-858a-fa8e48072699")
 	)
-	(label "ICE_47"
+	(label "ICE_45"
 		(at 447.04 77.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -33601,7 +33601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RP2350_60QFN_minimal:AMPHENOL_SFV22R-2STE1HLF"
 			(at 233.68 212.09 0)
 			(effects
 				(font
@@ -35804,7 +35804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_80QFN_minimal:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
+		(property "Footprint" "RP2350_60QFN_minimal:RP2350B_QFN-80_EP_10.573x10.573_Pitch0.4mm"
 			(at 90.17 200.66 0)
 			(effects
 				(font
