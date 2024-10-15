@@ -28868,7 +28868,7 @@
 				)
 			)
 		)
-		(property "Value" "PTS820 J25K SMTR LFS"
+		(property "Value" "CS1213AGF260"
 			(at 478.79 347.98 0)
 			(effects
 				(font
@@ -28895,7 +28895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 50V"
 			(at 478.79 353.06 0)
 			(effects
 				(font
@@ -28913,7 +28913,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PTS820 J25K SMTR LFS"
+		(property "MPN" "CS1213AGF260"
 			(at 478.79 353.06 0)
 			(effects
 				(font
@@ -28922,7 +28922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "C&K"
+		(property "Manufacturer" "CIT Relay and Switch"
 			(at 478.79 353.06 0)
 			(effects
 				(font
@@ -30668,7 +30668,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FIXED IND 3.3UH 1.2A 150MOHM SMD"
+			(at 45.72 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MLP2016H3R3MT0S1"
+			(at 45.72 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
 			(at 45.72 163.83 0)
 			(effects
 				(font
@@ -32058,7 +32076,7 @@
 				)
 			)
 		)
-		(property "Value" "PTS820 J25K SMTR LFS"
+		(property "Value" "CS1213AGF260"
 			(at 208.28 365.125 0)
 			(effects
 				(font
@@ -32085,7 +32103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 50V"
 			(at 208.28 369.57 0)
 			(effects
 				(font
@@ -32103,7 +32121,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PTS820 J25K SMTR LFS"
+		(property "MPN" "CS1213AGF260"
 			(at 208.28 369.57 0)
 			(effects
 				(font
@@ -32112,7 +32130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "C&K"
+		(property "Manufacturer" "CIT Relay and Switch"
 			(at 208.28 369.57 0)
 			(effects
 				(font
