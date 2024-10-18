@@ -18392,7 +18392,7 @@
 		)
 		(uuid "4a14d0f4-f1d5-41a2-af2f-6d7159febd1a")
 	)
-	(label "~{RP_SRAM_SS}"
+	(label "~{SRAM_SS}"
 		(at 34.29 339.09 180)
 		(fields_autoplaced yes)
 		(effects
@@ -27979,84 +27979,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 191.77 384.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "1927938b-dc6c-4104-a246-47cf629803dd")
-		(property "Reference" "R33"
-			(at 193.294 382.524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 193.548 384.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 191.77 386.588 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 384.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 384.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DNP"
-			(at 191.77 384.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36a875ea-5441-402a-8053-1b63baa3f296")
-		)
-		(pin "2"
-			(uuid "c3b0239b-d9f7-4e87-abbd-bcc01e845b91")
-		)
-		(instances
-			(project "pico2-ice"
-				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "UPduino_v3.0:Device_R")
 		(at 57.15 58.42 0)
 		(mirror y)
@@ -30514,6 +30436,71 @@
 			(project "pico2-ice"
 				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 185.42 361.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58bfe23c-a055-429a-85b5-8572e99d2371")
+		(property "Reference" "#PWR082"
+			(at 185.42 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 185.801 357.5558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4aa561f3-132a-42ad-8141-532f461ee502")
+		)
+		(instances
+			(project "pico2-ice"
+				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -36517,6 +36504,110 @@
 			(project "pico2-ice"
 				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UPduino_v3.0:Device_R")
+		(at 191.77 384.81 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d197bb7a-47c8-4b06-a373-3095cf5ebb47")
+		(property "Reference" "R33"
+			(at 191.516 382.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 191.77 384.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 191.77 383.032 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 5.1K OHM 1% 1/16W 0603"
+			(at 191.77 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 191.77 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-075K1L"
+			(at 191.77 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 191.77 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 191.77 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d003a10-de6f-4cad-86a9-4c3fbd715662")
+		)
+		(pin "2"
+			(uuid "7934ceeb-2f22-4142-808d-3e506d9d2d9e")
+		)
+		(instances
+			(project "pico2-ice"
+				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
+					(reference "R33")
 					(unit 1)
 				)
 			)
