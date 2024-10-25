@@ -26930,7 +26930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 67.818 58.42 90)
 			(effects
 				(font
@@ -26948,7 +26948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 5.1K OHM 1% 1/16W 0603"
+		(property "Description" "RES 56K OHM 1% 1/16W 0402"
 			(at 66.04 58.42 0)
 			(effects
 				(font
@@ -26966,7 +26966,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-075K1L"
+		(property "MPN" "RC0402FR-0756KL"
 			(at 66.04 58.42 0)
 			(effects
 				(font
@@ -28004,7 +28004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 58.928 58.42 90)
 			(effects
 				(font
@@ -28022,7 +28022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 5.1K OHM 1% 1/16W 0603"
+		(property "Description" "RES 56K OHM 1% 1/16W 0402"
 			(at 57.15 58.42 0)
 			(effects
 				(font
@@ -28040,7 +28040,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-075K1L"
+		(property "MPN" "RC0402FR-0756KL"
 			(at 57.15 58.42 0)
 			(effects
 				(font
@@ -30298,7 +30298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 58.928 76.2 90)
 			(effects
 				(font
@@ -30316,7 +30316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 5.1K OHM 1% 1/16W 0603"
+		(property "Description" "RES 5.1K OHM 1% 1/16W 0402"
 			(at 57.15 76.2 0)
 			(effects
 				(font
@@ -30334,7 +30334,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-075K1L"
+		(property "MPN" "RC0402FR-075K1L"
 			(at 57.15 76.2 0)
 			(effects
 				(font
@@ -33019,7 +33019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 67.818 76.2 90)
 			(effects
 				(font
@@ -33037,7 +33037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 5.1K OHM 1% 1/16W 0603"
+		(property "Description" "RES 5.1K OHM 1% 1/16W 0402"
 			(at 66.04 76.2 0)
 			(effects
 				(font
@@ -33055,7 +33055,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-075K1L"
+		(property "MPN" "RC0402FR-075K1L"
 			(at 66.04 76.2 0)
 			(effects
 				(font
@@ -33481,7 +33481,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SM03B-SRSS-TB"
+		(property "Value" "BM03B-SRSS-TB"
 			(at 43.18 236.22 0)
 			(effects
 				(font
@@ -33490,7 +33490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
 			(at 45.72 234.95 0)
 			(effects
 				(font
@@ -33508,7 +33508,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN HEADER SMD 3POS 1MM"
+			(at 45.72 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BM03B-SRSS-TB"
+			(at 45.72 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
 			(at 45.72 234.95 0)
 			(effects
 				(font
@@ -36535,7 +36553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 191.77 383.032 90)
 			(effects
 				(font
@@ -36553,7 +36571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 5.1K OHM 1% 1/16W 0603"
+		(property "Description" "RES 5.1K OHM 1% 1/16W 0402"
 			(at 191.77 384.81 0)
 			(effects
 				(font
@@ -36571,7 +36589,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-075K1L"
+		(property "MPN" "RC0402FR-075K1L"
 			(at 191.77 384.81 0)
 			(effects
 				(font
