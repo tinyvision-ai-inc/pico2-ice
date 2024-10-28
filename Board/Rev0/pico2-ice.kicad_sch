@@ -24436,7 +24436,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005edac067")
 		(property "Reference" "R3"
 			(at 57.658 330.9366 0)
@@ -24474,7 +24474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DNF"
 			(at 55.88 332.105 0)
 			(effects
 				(font
@@ -24483,7 +24483,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DNP"
+		(property "MPN" ""
 			(at 55.88 332.105 0)
 			(effects
 				(font
@@ -25083,7 +25083,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005ef4c292")
 		(property "Reference" "H1"
 			(at 457.2 385.5466 0)
@@ -25155,7 +25155,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005ef4cf1f")
 		(property "Reference" "H2"
 			(at 457.2 390.6266 0)
@@ -25227,7 +25227,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005ef4d323")
 		(property "Reference" "H3"
 			(at 457.2 395.7066 0)
@@ -25299,7 +25299,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005ef4d57b")
 		(property "Reference" "H4"
 			(at 457.2 400.7866 0)
@@ -25734,7 +25734,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f1335b5")
 		(property "Reference" "FID1"
 			(at 418.719 399.5166 0)
@@ -25806,7 +25806,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f133f02")
 		(property "Reference" "FID3"
 			(at 431.419 399.5166 0)
@@ -25878,7 +25878,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f134348")
 		(property "Reference" "FID5"
 			(at 442.849 399.5166 0)
@@ -25950,7 +25950,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f136355")
 		(property "Reference" "FID2"
 			(at 418.719 395.0716 0)
@@ -26022,7 +26022,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f13635b")
 		(property "Reference" "FID4"
 			(at 431.419 395.0716 0)
@@ -26094,7 +26094,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f136361")
 		(property "Reference" "FID6"
 			(at 442.849 395.0716 0)
@@ -26663,7 +26663,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 15PF 25V COG 0402"
+			(at 39.37 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1555C1E150JA01D"
+			(at 39.37 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 39.37 203.2 0)
 			(effects
 				(font
@@ -26835,7 +26853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10kΩ 62.5mW ±200ppm/℃ 0402x4 Resistor Networks & Arrays"
+		(property "Description" "RESARRAY 10K OHM 1% 1/16W 0804"
 			(at 563.245 292.735 0)
 			(effects
 				(font
@@ -27256,7 +27274,7 @@
 		(at 175.26 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0e2adfc9-380d-4e31-aa5a-f11f79174de2")
@@ -27296,7 +27314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
 			(at 175.26 251.46 0)
 			(effects
 				(font
@@ -27305,7 +27323,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DNP"
+		(property "MPN" ""
 			(at 175.26 251.46 0)
 			(effects
 				(font
@@ -28396,7 +28414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10kΩ 62.5mW ±200ppm/℃ 0402x4 Resistor Networks & Arrays"
+		(property "Description" "RESARRAY 10K OHM 1% 1/16W 0804"
 			(at 554.355 292.735 0)
 			(effects
 				(font
@@ -28733,7 +28751,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2bb97fc1-2008-42b0-a4b8-60770020cee1")
 		(property "Reference" "LOGO2"
 			(at 428.625 386.461 0)
@@ -29119,7 +29137,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "SHORT"
 			(at 177.8 287.02 90)
 			(effects
 				(font
@@ -29145,7 +29163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 27 OHM 1% 1/16W 0402"
+		(property "Description" ""
 			(at 177.8 287.02 0)
 			(effects
 				(font
@@ -29163,7 +29181,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0727RL"
+		(property "MPN" "DNP"
 			(at 177.8 287.02 0)
 			(effects
 				(font
@@ -29172,7 +29190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 177.8 287.02 0)
 			(effects
 				(font
@@ -30578,7 +30596,7 @@
 		(at 166.37 300.99 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5a00d354-46b5-4ee7-9d1f-47090fc712eb")
@@ -30618,7 +30636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
 			(at 166.37 300.99 0)
 			(effects
 				(font
@@ -30627,7 +30645,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DNP"
+		(property "MPN" ""
 			(at 166.37 300.99 0)
 			(effects
 				(font
@@ -31149,7 +31167,7 @@
 		(at 166.37 308.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6b16be53-7fec-44bc-8a6c-d820779f1ffb")
@@ -31189,7 +31207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
 			(at 166.37 308.61 0)
 			(effects
 				(font
@@ -31198,7 +31216,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DNP"
+		(property "MPN" ""
 			(at 166.37 308.61 0)
 			(effects
 				(font
@@ -31293,7 +31311,7 @@
 		(at 44.45 383.54 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6bc9437f-8bfb-4257-ad1b-3fc4cb113a9e")
@@ -31333,7 +31351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
 			(at 44.45 383.54 0)
 			(effects
 				(font
@@ -31342,7 +31360,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DNP"
+		(property "MPN" ""
 			(at 44.45 383.54 0)
 			(effects
 				(font
@@ -32378,7 +32396,7 @@
 		(at 204.47 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7f247dac-96fc-4006-b0d6-9ce029a698fd")
@@ -32418,7 +32436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
 			(at 204.47 184.15 0)
 			(effects
 				(font
@@ -32427,7 +32445,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DNP"
+		(property "MPN" ""
 			(at 204.47 184.15 0)
 			(effects
 				(font
@@ -32458,7 +32476,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "802f85ef-6727-44b7-ba62-371a4e4b00b2")
 		(property "Reference" "LOGO1"
 			(at 416.56 386.461 0)
@@ -32584,7 +32602,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crystal"
+			(at 49.53 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ABM8-272-T3"
+			(at 49.53 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Abracon "
 			(at 49.53 208.28 0)
 			(effects
 				(font
@@ -33716,6 +33752,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SFV22R-2STE1HLF"
+			(at 233.68 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AMPHENOL"
+			(at 233.68 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "17"
 			(uuid "62ada9ac-9370-4094-9dce-828d369b34f2")
 		)
@@ -34580,7 +34634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10kΩ 62.5mW ±200ppm/℃ 0402x4 Resistor Networks & Arrays"
+		(property "Description" "RESARRAY 10K OHM 1% 1/16W 0804"
 			(at 508 290.83 0)
 			(effects
 				(font
@@ -34798,7 +34852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10kΩ 62.5mW ±200ppm/℃ 0402x4 Resistor Networks & Arrays"
+		(property "Description" "RESARRAY 10K OHM 1% 1/16W 0804"
 			(at 547.37 292.735 0)
 			(effects
 				(font
@@ -35147,7 +35201,7 @@
 		(at 199.39 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "bbe671b5-9783-4faf-aa12-f39412ad9e58")
@@ -35187,7 +35241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
 			(at 199.39 184.15 0)
 			(effects
 				(font
@@ -35196,7 +35250,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DNP"
+		(property "MPN" ""
 			(at 199.39 184.15 0)
 			(effects
 				(font
@@ -35227,7 +35281,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "be4b6f0d-f662-4fd3-86e1-00a62d56607d")
 		(property "Reference" "LOGO3"
 			(at 440.69 386.461 0)
@@ -36281,7 +36335,7 @@
 		(at 185.42 365.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ccb0c7d2-31e0-4eec-abbb-3641f4d7d811")
@@ -36321,7 +36375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
 			(at 185.42 365.76 0)
 			(effects
 				(font
@@ -36330,7 +36384,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DNP"
+		(property "MPN" ""
 			(at 185.42 365.76 0)
 			(effects
 				(font
@@ -36399,7 +36453,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 15PF 25V COG 0402"
+			(at 39.37 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1555C1E150JA01D"
+			(at 39.37 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 39.37 213.36 0)
 			(effects
 				(font
@@ -36753,7 +36825,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "SHORT"
 			(at 177.8 284.48 90)
 			(effects
 				(font
@@ -36779,7 +36851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 27 OHM 1% 1/16W 0402"
+		(property "Description" ""
 			(at 177.8 284.48 0)
 			(effects
 				(font
@@ -36797,7 +36869,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0727RL"
+		(property "MPN" "DNP"
 			(at 177.8 284.48 0)
 			(effects
 				(font
@@ -36806,7 +36878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 177.8 284.48 0)
 			(effects
 				(font
@@ -37173,7 +37245,7 @@
 		(at 191.77 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d8e4e039-530c-40e3-a9f7-07ce66db1cc5")
@@ -37213,7 +37285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1K OHM 1% 1/16W 0402"
 			(at 191.77 297.18 0)
 			(effects
 				(font
@@ -37222,7 +37294,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DNP"
+		(property "MPN" "RC0402FR-071KL"
+			(at 191.77 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
 			(at 191.77 297.18 0)
 			(effects
 				(font
@@ -37421,7 +37502,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "de055fe0-26e3-4425-ac3c-584433236a2a")
 		(property "Reference" "LOGO4"
 			(at 397.51 386.461 0)
@@ -37809,7 +37890,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e428b349-3be2-4493-be37-7262e24320f0")
 		(property "Reference" "J3"
@@ -38001,7 +38082,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e4dc3a43-2f8b-4a24-850c-efb37da532e0")
 		(property "Reference" "J2"
@@ -38856,7 +38937,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f96beb80-edbf-4348-a6ac-71946d02d63d")
 		(property "Reference" "R27"
 			(at 40.64 333.8322 90)
@@ -38892,7 +38973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1% 1/16W 0402"
+		(property "Description" "DNF"
 			(at 40.64 339.09 0)
 			(effects
 				(font
@@ -38910,7 +38991,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-071KL"
+		(property "MPN" ""
 			(at 40.64 339.09 0)
 			(effects
 				(font
@@ -38919,7 +39000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 40.64 339.09 0)
 			(effects
 				(font

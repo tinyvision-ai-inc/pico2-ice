@@ -500,8 +500,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "Assembly/",
+      "pos_files": "Assembly",
       "specctra_dsn": "",
       "step": "pico-ice.step",
       "svg": "",
@@ -527,7 +527,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Reference",
           "name": "Reference",
           "show": true
