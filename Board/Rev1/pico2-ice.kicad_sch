@@ -10567,20 +10567,12 @@
 		(uuid "fd6d6fcb-c5eb-46a6-8465-10c77d593a75")
 	)
 	(no_connect
-		(at 228.6 207.01)
-		(uuid "025a9924-ad12-4b88-b101-b8ff30b086ce")
-	)
-	(no_connect
 		(at 41.91 55.88)
 		(uuid "2821fb8f-46dd-41d3-9879-6e35195240ee")
 	)
 	(no_connect
 		(at 41.91 58.42)
 		(uuid "8a78dea0-a624-4e88-9b61-e73f934d9466")
-	)
-	(no_connect
-		(at 228.6 204.47)
-		(uuid "cb447e31-3246-4fa6-b74a-aeb688ad69ea")
 	)
 	(wire
 		(pts
@@ -11661,6 +11653,16 @@
 			(type default)
 		)
 		(uuid "3201ae9c-f3d3-4efb-bc5a-d66505be2861")
+	)
+	(wire
+		(pts
+			(xy 223.52 204.47) (xy 228.6 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3209e9e7-0299-4ca8-b7b2-b3415b988a8f")
 	)
 	(wire
 		(pts
@@ -13611,6 +13613,16 @@
 			(type default)
 		)
 		(uuid "839ade61-4aa7-4940-9393-30ae9c762c05")
+	)
+	(wire
+		(pts
+			(xy 223.52 207.01) (xy 228.6 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83af34e0-a3b2-4c15-bd4b-5cc9ad6f35e2")
 	)
 	(wire
 		(pts
@@ -16392,6 +16404,16 @@
 		)
 		(uuid "098aeae9-8116-44d2-9f91-0dd33a339068")
 	)
+	(text "GPIO"
+		(exclude_from_sim no)
+		(at 211.582 206.248 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0a358c4e-d1be-405b-b8d5-e79fc2c0e489")
+	)
 	(text "SRAM"
 		(exclude_from_sim no)
 		(at 66.04 375.158 0)
@@ -17123,6 +17145,16 @@
 		)
 		(uuid "95e1a700-0ee6-4752-9bc5-aec635deec22")
 	)
+	(text "GPIO"
+		(exclude_from_sim no)
+		(at 211.582 203.708 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "997c8bac-e837-4f21-84c3-fd3ffdfe2d50")
+	)
 	(text "iCE-Pico PMOD"
 		(exclude_from_sim no)
 		(at 535.305 55.88 0)
@@ -17557,16 +17589,6 @@
 		)
 		(uuid "ef377d7f-88f0-4e1a-b423-6a3e4f31af80")
 	)
-	(text "GPIO"
-		(exclude_from_sim no)
-		(at 211.582 196.088 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ef89a1b0-62d6-4214-8761-628ef46fee00")
-	)
 	(text "GPIO13"
 		(exclude_from_sim no)
 		(at 210.566 213.614 0)
@@ -17609,16 +17631,6 @@
 			(justify left bottom)
 		)
 		(uuid "f8345fa5-86a2-40e5-b4fd-dc135c1f74fe")
-	)
-	(text "GPIO"
-		(exclude_from_sim no)
-		(at 211.582 198.628 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f93f4338-a4de-41df-bd54-2918186ed14c")
 	)
 	(text "Note: \nAdd DNF if the Flash is\nreplaced with an SRAM."
 		(exclude_from_sim no)
@@ -17699,6 +17711,17 @@
 		)
 		(uuid "035351d9-ba9a-4e74-b931-9eaa87050d60")
 	)
+	(label "LED_R"
+		(at 223.52 196.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04789144-f397-484b-9e3d-25dccfd03124")
+	)
 	(label "ICE_SO"
 		(at 513.715 41.91 0)
 		(fields_autoplaced yes)
@@ -17775,17 +17798,6 @@
 			(justify right bottom)
 		)
 		(uuid "0add4830-9ae7-4ad9-b942-869913bf1a2c")
-	)
-	(label "GPIO11"
-		(at 223.52 199.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0af26359-e64e-4fb6-a75f-c65fe3a130c6")
 	)
 	(label "QSPI_SCLK"
 		(at 63.5 194.31 0)
@@ -18083,6 +18095,17 @@
 			(justify left bottom)
 		)
 		(uuid "2a78b250-c6a4-4a08-a610-8791d2964e9e")
+	)
+	(label "GPIO11"
+		(at 223.52 207.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2abdb6c7-14d6-4962-a52c-854349daaf56")
 	)
 	(label "Lane1_P"
 		(at 148.59 208.28 0)
@@ -18634,17 +18657,6 @@
 		)
 		(uuid "602b9f1a-847d-4c6d-9ad8-da38089460f4")
 	)
-	(label "GPIO10"
-		(at 223.52 196.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "60beba8e-1b8f-4194-8e3e-dce1b3c6dbbc")
-	)
 	(label "PICO_PMOD_A3"
 		(at 148.59 248.92 0)
 		(fields_autoplaced yes)
@@ -18897,6 +18909,17 @@
 			(justify left bottom)
 		)
 		(uuid "76568a08-4880-4a97-b7d2-bf9bafd6f272")
+	)
+	(label "LED_B"
+		(at 223.52 199.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "765fd91c-3d1f-4e25-b4db-bd01cc97a9a7")
 	)
 	(label "PICO_PMOD_B1"
 		(at 148.59 261.62 0)
@@ -19491,6 +19514,17 @@
 			(justify right bottom)
 		)
 		(uuid "be95627f-d2b5-49af-9a10-8d32ae86c82f")
+	)
+	(label "GPIO10"
+		(at 223.52 204.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf3b96c0-9b0d-4826-8437-9f035ef9bf6e")
 	)
 	(label "ICE_18"
 		(at 148.59 236.22 0)
@@ -33716,7 +33750,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x22_MountingPin"
+		(property "Value" "FH12A-22S-0.5SH(55)"
 			(at 236.22 214.9855 0)
 			(effects
 				(font
