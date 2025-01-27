@@ -9991,12 +9991,6 @@
 		(uuid "2d6661ad-254a-41ec-83bd-4a13a60fb9dc")
 	)
 	(junction
-		(at 201.93 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ef4e916-a86e-47fb-9fee-86b21c501a93")
-	)
-	(junction
 		(at 126.365 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10537,6 +10531,12 @@
 		(uuid "f848d1c7-4a9f-4a69-a5d2-6b987a467a40")
 	)
 	(junction
+		(at 201.93 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8568c06-1f50-4989-8473-3ff52cb14821")
+	)
+	(junction
 		(at 107.95 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10583,16 +10583,6 @@
 			(type default)
 		)
 		(uuid "0043f450-f754-4bc6-a0a0-ae4cf41b8e80")
-	)
-	(wire
-		(pts
-			(xy 199.39 187.96) (xy 199.39 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "006a4eef-6c84-4bf0-a5e5-54f4982df8f7")
 	)
 	(wire
 		(pts
@@ -10763,6 +10753,16 @@
 			(type default)
 		)
 		(uuid "078bb16a-e722-4092-be31-7b8a76b83c56")
+	)
+	(wire
+		(pts
+			(xy 199.39 195.58) (xy 199.39 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a8c966-5112-4d1f-81bf-a161a085d21a")
 	)
 	(wire
 		(pts
@@ -11183,6 +11183,16 @@
 			(type default)
 		)
 		(uuid "1c79743e-46bc-4cdc-81b2-b46ba5d9f79a")
+	)
+	(wire
+		(pts
+			(xy 201.93 187.96) (xy 204.47 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db94717-d7dc-4d2a-9ecc-dae5ef7dab7a")
 	)
 	(wire
 		(pts
@@ -11796,6 +11806,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 187.96) (xy 201.93 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381d096f-4466-4088-abb8-3348978c9f3d")
+	)
+	(wire
+		(pts
 			(xy 54.61 208.28) (xy 54.61 214.63)
 		)
 		(stroke
@@ -12246,16 +12266,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 180.34) (xy 201.93 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4789ae9e-449f-47bc-8988-a55679d58716")
-	)
-	(wire
-		(pts
 			(xy 148.59 172.72) (xy 146.05 172.72)
 		)
 		(stroke
@@ -12336,16 +12346,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 199.39) (xy 228.6 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ccf9ca0-0812-4e9c-a5d2-94adb614f109")
-	)
-	(wire
-		(pts
 			(xy 170.18 113.03) (xy 170.18 111.76)
 		)
 		(stroke
@@ -12363,6 +12363,16 @@
 			(type default)
 		)
 		(uuid "4d507f74-be01-4d1d-9cc6-81722f40ac63")
+	)
+	(wire
+		(pts
+			(xy 223.52 189.23) (xy 228.6 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6d7ebf-39f4-4140-86d6-0f6956caa3b2")
 	)
 	(wire
 		(pts
@@ -12523,16 +12533,6 @@
 			(type default)
 		)
 		(uuid "524420a6-feb9-4bc3-a091-82ad720ea0bc")
-	)
-	(wire
-		(pts
-			(xy 199.39 191.77) (xy 228.6 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5252ee6d-af92-4197-b5de-466471cadd53")
 	)
 	(wire
 		(pts
@@ -13016,16 +13016,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 180.34) (xy 204.47 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b438f91-0aea-4904-a30c-2066e5751f45")
-	)
-	(wire
-		(pts
 			(xy 143.51 372.11) (xy 140.97 372.11)
 		)
 		(stroke
@@ -13446,16 +13436,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 189.23) (xy 228.6 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e5f1ebe-1ddf-44ef-a7ef-ba3a3ecbe41d")
-	)
-	(wire
-		(pts
 			(xy 471.17 187.96) (xy 487.68 187.96)
 		)
 		(stroke
@@ -13583,16 +13563,6 @@
 			(type default)
 		)
 		(uuid "82a7cd21-1070-4526-af71-cd7ece8bf52c")
-	)
-	(wire
-		(pts
-			(xy 223.52 196.85) (xy 228.6 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82c4f162-da7d-455d-b7c0-a4f1814fdb2f")
 	)
 	(wire
 		(pts
@@ -14393,16 +14363,6 @@
 			(type default)
 		)
 		(uuid "a438fba8-55e5-489c-b897-c5de35601c44")
-	)
-	(wire
-		(pts
-			(xy 204.47 187.96) (xy 204.47 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4bee9e2-8e91-446e-998d-0759e6eb0040")
 	)
 	(polyline
 		(pts
@@ -15386,6 +15346,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 199.39) (xy 228.6 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d104253d-af44-46ba-8708-4dddd794e604")
+	)
+	(wire
+		(pts
 			(xy 223.52 237.49) (xy 228.6 237.49)
 		)
 		(stroke
@@ -15786,6 +15756,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 196.85) (xy 228.6 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6774f36-c448-43cf-a52b-0fa2a75cf009")
+	)
+	(wire
+		(pts
 			(xy 162.56 182.88) (xy 165.735 182.88)
 		)
 		(stroke
@@ -15793,6 +15773,16 @@
 			(type default)
 		)
 		(uuid "e6a1fc80-fa91-4250-a454-7ae7d1a6ee76")
+	)
+	(wire
+		(pts
+			(xy 223.52 191.77) (xy 228.6 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f39561-5668-446d-b78d-3d571d0810a6")
 	)
 	(wire
 		(pts
@@ -16043,6 +16033,16 @@
 			(type default)
 		)
 		(uuid "f7246792-87d0-462e-b551-4b8c844afd01")
+	)
+	(wire
+		(pts
+			(xy 204.47 195.58) (xy 204.47 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f739116e-42c8-43d6-ab8a-e05373b558f7")
 	)
 	(wire
 		(pts
@@ -17711,17 +17711,6 @@
 		)
 		(uuid "035351d9-ba9a-4e74-b931-9eaa87050d60")
 	)
-	(label "LED_R"
-		(at 223.52 196.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "04789144-f397-484b-9e3d-25dccfd03124")
-	)
 	(label "ICE_SO"
 		(at 513.715 41.91 0)
 		(fields_autoplaced yes)
@@ -18073,6 +18062,17 @@
 			(justify right bottom)
 		)
 		(uuid "27e15513-1503-4ee7-82a4-a9501380a897")
+	)
+	(label "LED_R"
+		(at 223.52 189.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "280d09d5-3df9-4d2a-adb7-f20a8dab0b64")
 	)
 	(label "ICE_3"
 		(at 421.64 82.55 180)
@@ -18558,17 +18558,6 @@
 		)
 		(uuid "57ff19b2-8270-44ce-9e57-a18e44afbfa3")
 	)
-	(label "SDA_GPIO2"
-		(at 223.52 189.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "58767479-1de5-4601-8a5c-a11c0eeefd13")
-	)
 	(label "+1.2V_CORE"
 		(at 412.75 284.48 0)
 		(fields_autoplaced yes)
@@ -18909,17 +18898,6 @@
 			(justify left bottom)
 		)
 		(uuid "76568a08-4880-4a97-b7d2-bf9bafd6f272")
-	)
-	(label "LED_B"
-		(at 223.52 199.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "765fd91c-3d1f-4e25-b4db-bd01cc97a9a7")
 	)
 	(label "PICO_PMOD_B1"
 		(at 148.59 261.62 0)
@@ -19328,6 +19306,17 @@
 		)
 		(uuid "a94b9e93-3de9-402a-bed3-ce94a4058606")
 	)
+	(label "SCL_GPIO3"
+		(at 223.52 199.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aba90d53-7f28-4dc4-b495-fde0cab0968a")
+	)
 	(label "XIN"
 		(at 68.58 203.2 180)
 		(fields_autoplaced yes)
@@ -19349,17 +19338,6 @@
 			(justify right bottom)
 		)
 		(uuid "afa8f267-ddb3-41f1-a5b4-358175f148a9")
-	)
-	(label "SCL_GPIO3"
-		(at 223.52 191.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b0233a9e-1051-4c6a-b537-c7eb494f298b")
 	)
 	(label "ICE_31"
 		(at 447.04 52.07 0)
@@ -19669,6 +19647,17 @@
 		)
 		(uuid "d478a1c0-503b-4ffb-9783-032822b10201")
 	)
+	(label "LED_B"
+		(at 223.52 191.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d79f72a7-8877-484b-9a41-e3cea2371daa")
+	)
 	(label "QSPI_SD1"
 		(at 63.5 185.42 0)
 		(fields_autoplaced yes)
@@ -19910,6 +19899,17 @@
 			(justify left bottom)
 		)
 		(uuid "f2965e7f-e098-4bea-a564-b41b6dadd002")
+	)
+	(label "SDA_GPIO2"
+		(at 223.52 196.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f361052a-4b2a-4fed-860a-2aba560c8e96")
 	)
 	(label "ICE_LED_R"
 		(at 429.006 226.06 0)
@@ -27225,7 +27225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1127/APM_PSRAM_QSPI_APS6404L_3SQN_v2_3_PKG-1954905.pdf"
 			(at 71.12 391.16 0)
 			(effects
 				(font
@@ -27855,71 +27855,6 @@
 			(project "pico2-ice"
 				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 201.93 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "17a6a314-5f39-4a6e-95b6-cc63891d20a4")
-		(property "Reference" "#PWR065"
-			(at 201.93 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 202.311 175.9458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b070bb3-968a-4705-bc11-e82c2f8bebc7")
-		)
-		(instances
-			(project "pico2-ice"
-				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
-					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -28642,6 +28577,84 @@
 			(project "pico2-ice"
 				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27deaa75-1dba-44ac-b8c2-362b53c7a129")
+		(property "Reference" "R13"
+			(at 199.39 195.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 199.39 193.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 197.612 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
+			(at 199.39 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 199.39 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcded853-96a7-4a73-b71f-e5289f0e0b56")
+		)
+		(pin "2"
+			(uuid "e2209d22-4c33-49ab-8748-861d2c0f3121")
+		)
+		(instances
+			(project "pico2-ice"
+				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -31133,6 +31146,71 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 201.93 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "680e1ce9-c571-4dfd-a349-92b5f2933f7d")
+		(property "Reference" "#PWR065"
+			(at 201.93 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 202.311 183.5658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9c4377a-ae4f-4a19-ac21-056f83c64d5e")
+		)
+		(instances
+			(project "pico2-ice"
+				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 488.95 345.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32426,84 +32504,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 204.47 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7f247dac-96fc-4006-b0d6-9ce029a698fd")
-		(property "Reference" "R13"
-			(at 204.47 187.706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 204.47 186.182 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 202.692 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1% 1/16W 0402"
-			(at 204.47 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 204.47 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a781222a-a5d7-46bf-a87a-b75eb40b4b1c")
-		)
-		(pin "2"
-			(uuid "36438fdf-e5e5-476b-9f54-0866163b958d")
-		)
-		(instances
-			(project "pico2-ice"
-				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MK11_PROG-rescue:TestPoint_Small-custom")
 		(at 416.56 391.16 0)
 		(unit 1)
@@ -33750,7 +33750,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FH12A-22S-0.5SH(55)"
+		(property "Value" "SFV22R-2STE1HLF"
 			(at 236.22 214.9855 0)
 			(effects
 				(font
@@ -35231,84 +35231,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 199.39 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bbe671b5-9783-4faf-aa12-f39412ad9e58")
-		(property "Reference" "R23"
-			(at 199.39 187.706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 199.39 186.182 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 197.612 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1% 1/16W 0402"
-			(at 199.39 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 199.39 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65f950b7-ff29-43b3-90c5-b6bec227451f")
-		)
-		(pin "2"
-			(uuid "7ae30d37-f5d3-406f-9ec7-424328c9f387")
-		)
-		(instances
-			(project "pico2-ice"
-				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MK11_PROG-rescue:TestPoint_Small-custom")
 		(at 440.69 391.16 0)
 		(unit 1)
@@ -35808,6 +35730,84 @@
 			(project "pico2-ice"
 				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.47 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c47cd1f9-d205-4a62-90c7-f0ae1e7c6dee")
+		(property "Reference" "R23"
+			(at 204.47 195.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 204.47 193.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 202.692 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
+			(at 204.47 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 204.47 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a2bf5c1-67d2-4c3a-9cc1-2017e4916095")
+		)
+		(pin "2"
+			(uuid "07457890-5ef4-468d-9abf-2bf007369dad")
+		)
+		(instances
+			(project "pico2-ice"
+				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
+					(reference "R23")
 					(unit 1)
 				)
 			)
