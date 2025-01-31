@@ -9937,6 +9937,12 @@
 		(uuid "19623b3f-82cc-4ba9-a165-00d7d33d45ea")
 	)
 	(junction
+		(at 227.33 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1968dca7-540a-4bfb-82c3-41a0a1b0f84a")
+	)
+	(junction
 		(at 215.9 372.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10061,12 +10067,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52b25157-99ae-4d89-be71-f8cd48f1f54e")
-	)
-	(junction
-		(at 233.68 245.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5758a8a4-d151-42d4-b409-828c4c418777")
 	)
 	(junction
 		(at 74.93 132.08)
@@ -10683,16 +10683,6 @@
 			(type default)
 		)
 		(uuid "01f1dea1-4a8e-476d-b7bc-782227ac356c")
-	)
-	(wire
-		(pts
-			(xy 227.33 245.11) (xy 233.68 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "029c33df-ef91-4f74-bb13-822328f3136c")
 	)
 	(wire
 		(pts
@@ -12946,7 +12936,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 240.03) (xy 227.33 245.11)
+			(xy 227.33 240.03) (xy 227.33 241.3)
 		)
 		(stroke
 			(width 0)
@@ -14406,6 +14396,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 181.61) (xy 227.33 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ac534d-487f-4048-bcc5-1402b7949c85")
+	)
+	(wire
+		(pts
 			(xy 204.47 187.96) (xy 204.47 189.23)
 		)
 		(stroke
@@ -15624,6 +15624,16 @@
 		)
 		(uuid "dbd848ff-6a7d-4a53-b8f7-c000b3c9d924")
 	)
+	(wire
+		(pts
+			(xy 227.33 181.61) (xy 227.33 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc4c49ef-bd8c-4022-af7a-66fe9a40a1c0")
+	)
 	(polyline
 		(pts
 			(xy 422.91 39.37) (xy 513.08 39.37)
@@ -16495,15 +16505,15 @@
 		)
 		(uuid "2400b3ad-2e9c-44b9-9d13-b0cd6d45ed08")
 	)
-	(text "GPIO19"
+	(text "GPIO18"
 		(exclude_from_sim no)
-		(at 211.074 236.728 0)
+		(at 211.074 214.122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "27c8b24e-862f-4e68-bc0f-30f31c893c0b")
+		(uuid "26448fe0-c84b-4c12-9d47-d0dc68aae406")
 	)
 	(text "Pico PMOD"
 		(exclude_from_sim no)
@@ -16573,6 +16583,16 @@
 		)
 		(uuid "30eb6558-9cd8-42e3-9b40-de6fc1e4fa6a")
 	)
+	(text "GPIO14"
+		(exclude_from_sim no)
+		(at 210.312 229.362 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "31b50714-2a48-4e66-bf24-5471d0dd0712")
+	)
 	(text "MOSI0"
 		(exclude_from_sim no)
 		(at 129.2585 186.4322 0)
@@ -16640,16 +16660,6 @@
 			(justify right bottom)
 		)
 		(uuid "412a978b-ec43-4529-a7ac-03568546534e")
-	)
-	(text "GPIO16"
-		(exclude_from_sim no)
-		(at 210.82 226.314 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "45e88d06-f4c1-44ce-aa4a-76dd4100254d")
 	)
 	(text "FPGA Power"
 		(exclude_from_sim no)
@@ -16804,6 +16814,16 @@
 		)
 		(uuid "5c140517-9a7e-4756-ab52-59f1d4f5933a")
 	)
+	(text "GPIO15"
+		(exclude_from_sim no)
+		(at 210.312 226.822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d7d29db-f6a5-48cb-a4b6-22ba0c6c0ce4")
+	)
 	(text "MOSI0"
 		(exclude_from_sim no)
 		(at 129.231 176.2684 0)
@@ -16826,15 +16846,15 @@
 		)
 		(uuid "5f19dde5-ca2d-4e71-943d-dd8736e0b0e2")
 	)
-	(text "GPIO15"
+	(text "GPIO17"
 		(exclude_from_sim no)
-		(at 210.312 221.488 0)
+		(at 210.82 219.456 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "64268709-9e06-4882-982e-ba76a01c2c5e")
+		(uuid "64f8c999-c28f-4555-98cb-518e2a9d6e97")
 	)
 	(text "The button functions as a boot select\nas well as GPIO."
 		(exclude_from_sim no)
@@ -16962,6 +16982,16 @@
 			(justify left bottom)
 		)
 		(uuid "756fa11b-e95d-462f-8bab-42f2474db268")
+	)
+	(text "GPIO16"
+		(exclude_from_sim no)
+		(at 210.82 221.996 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "762577b6-cf26-40c6-bac6-aaed4b5374bb")
 	)
 	(text "Suggested data clock"
 		(exclude_from_sim no)
@@ -17091,7 +17121,7 @@
 	)
 	(text "22 pin Top Contact 0.5mm FPC"
 		(exclude_from_sim no)
-		(at 231.14 181.356 0)
+		(at 231.902 177.546 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17249,6 +17279,16 @@
 		)
 		(uuid "a1c8b125-f97a-46f3-a193-57eb73d369b8")
 	)
+	(text "GPIO13"
+		(exclude_from_sim no)
+		(at 210.566 234.696 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a31d2930-43b0-4b1a-9939-421bc0671809")
+	)
 	(text "V_{ref} = 2.5V"
 		(exclude_from_sim no)
 		(at 197.866 301.752 0)
@@ -17305,6 +17345,16 @@
 		)
 		(uuid "a9188f41-ee44-4548-885c-7254c7488291")
 	)
+	(text "GPIO19"
+		(exclude_from_sim no)
+		(at 211.074 211.582 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b1044e54-39fe-4e72-8ece-d628f1487aae")
+	)
 	(text "CSn0"
 		(exclude_from_sim no)
 		(at 128.579 252.7376 0)
@@ -17328,16 +17378,6 @@
 			(justify left bottom)
 		)
 		(uuid "b881b749-a4e6-48aa-a316-448fad3fb5cc")
-	)
-	(text "GPIO18"
-		(exclude_from_sim no)
-		(at 211.074 234.188 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ba81af9a-e478-4c63-82b4-cd66a5ccf705")
 	)
 	(text "MOSI0"
 		(exclude_from_sim no)
@@ -17465,16 +17505,6 @@
 		)
 		(uuid "caf140bb-043f-4e82-846b-61de3f84089a")
 	)
-	(text "GPIO14"
-		(exclude_from_sim no)
-		(at 210.312 218.948 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cbccfcc8-7b01-4a36-a37b-9eea9d2bdba9")
-	)
 	(text "MISO1"
 		(exclude_from_sim no)
 		(at 128.778 229.5995 0)
@@ -17521,6 +17551,16 @@
 		)
 		(uuid "d2716eca-f53c-4763-bab6-2b59e86e00fb")
 	)
+	(text "GPIO12"
+		(exclude_from_sim no)
+		(at 210.566 237.236 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d73215e5-8044-4d65-8d54-60efc985ea0e")
+	)
 	(text "Peripheral(Default)/Host Selection\nHost Mode: Solder open bridges, cut shorted bridges\nPeripheral: Default"
 		(exclude_from_sim no)
 		(at 69.342 62.992 0)
@@ -17531,26 +17571,6 @@
 			(justify left bottom)
 		)
 		(uuid "db38842f-2b38-4529-9c50-cfdc597831e6")
-	)
-	(text "GPIO12"
-		(exclude_from_sim no)
-		(at 210.566 211.074 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dbb6993c-7e94-4264-90a7-0e80f04457df")
-	)
-	(text "GPIO17"
-		(exclude_from_sim no)
-		(at 210.82 228.854 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dc0ca107-51c0-4a11-a6e0-6743d345c1dd")
 	)
 	(text "iCE Prog"
 		(exclude_from_sim no)
@@ -17609,16 +17629,6 @@
 			(justify left bottom)
 		)
 		(uuid "ef377d7f-88f0-4e1a-b423-6a3e4f31af80")
-	)
-	(text "GPIO13"
-		(exclude_from_sim no)
-		(at 210.566 213.614 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f0362491-a69d-4fb2-83c7-be0f71c06293")
 	)
 	(text "CSn0"
 		(exclude_from_sim no)
@@ -17720,28 +17730,6 @@
 			(justify right bottom)
 		)
 		(uuid "0231cd6a-5bb7-40dc-8ada-90dea6890d61")
-	)
-	(label "Lane2_P"
-		(at 223.52 212.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "035351d9-ba9a-4e74-b931-9eaa87050d60")
-	)
-	(label "LED_R"
-		(at 223.52 196.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "04789144-f397-484b-9e3d-25dccfd03124")
 	)
 	(label "ICE_SO"
 		(at 513.715 41.91 0)
@@ -17918,6 +17906,17 @@
 			(justify right bottom)
 		)
 		(uuid "148afabc-7044-40ae-90f9-43c6a10f61d6")
+	)
+	(label "Lane1_N"
+		(at 223.52 219.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1576947f-71e5-4c50-8608-2074d46861a5")
 	)
 	(label "ADC7"
 		(at 421.64 90.17 180)
@@ -18117,17 +18116,6 @@
 		)
 		(uuid "2a78b250-c6a4-4a08-a610-8791d2964e9e")
 	)
-	(label "GPIO11"
-		(at 223.52 207.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2abdb6c7-14d6-4962-a52c-854349daaf56")
-	)
 	(label "Lane1_P"
 		(at 148.59 208.28 0)
 		(fields_autoplaced yes)
@@ -18171,6 +18159,17 @@
 			(justify left bottom)
 		)
 		(uuid "3318da80-4f19-4bd0-a337-561a661256b1")
+	)
+	(label "Lane1_P"
+		(at 223.52 222.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "347fae79-3a44-4795-b490-b246f3aa1c23")
 	)
 	(label "PICO_PMOD_B4"
 		(at 513.715 77.47 0)
@@ -18293,6 +18292,17 @@
 		)
 		(uuid "4183e6cb-1735-4e0e-a1ef-e33c9379eae2")
 	)
+	(label "ICE_19"
+		(at 223.52 196.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42ec1117-9a64-46b1-8c08-37d831fcd6f3")
+	)
 	(label "ICE_32"
 		(at 421.64 54.61 180)
 		(fields_autoplaced yes)
@@ -18303,17 +18313,6 @@
 			(justify right bottom)
 		)
 		(uuid "431986bb-c75d-455e-9423-5582001dcb7b")
-	)
-	(label "Lane1_N"
-		(at 223.52 229.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "435160be-2ab3-4467-9887-1877381d46c0")
 	)
 	(label "ICE_9"
 		(at 447.04 67.31 0)
@@ -18424,6 +18423,17 @@
 			(justify left bottom)
 		)
 		(uuid "48f446ee-1ee8-4f65-9503-f3a1d970beda")
+	)
+	(label "Lane2_P"
+		(at 223.52 237.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4989ec3d-589d-4305-97c9-5703b883d03e")
 	)
 	(label "ICE_19"
 		(at 539.75 207.01 180)
@@ -18557,6 +18567,17 @@
 		)
 		(uuid "5618931e-46e5-419b-830c-48951240122a")
 	)
+	(label "Clock_P"
+		(at 223.52 229.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "563010b3-7cc8-4f30-bbcf-b44cdc78977a")
+	)
 	(label "ICE_19"
 		(at 493.395 49.53 180)
 		(fields_autoplaced yes)
@@ -18667,17 +18688,6 @@
 		)
 		(uuid "5cc953ce-79a0-43e8-9980-586a9719690a")
 	)
-	(label "Clock_N"
-		(at 223.52 222.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "602b9f1a-847d-4c6d-9ad8-da38089460f4")
-	)
 	(label "PICO_PMOD_A3"
 		(at 148.59 248.92 0)
 		(fields_autoplaced yes)
@@ -18688,6 +18698,17 @@
 			(justify left bottom)
 		)
 		(uuid "61252e0e-0a25-47a3-b6b4-7994c131c12e")
+	)
+	(label "Clock_N"
+		(at 223.52 227.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "619db0e5-e5b4-4e21-8f86-0ac6283b7104")
 	)
 	(label "ICE_13|IO3"
 		(at 421.64 44.45 180)
@@ -18898,8 +18919,8 @@
 		)
 		(uuid "72271fbb-efac-4e36-acfe-d89970de5c9b")
 	)
-	(label "Lane0_N"
-		(at 223.52 237.49 180)
+	(label "Lane0_P"
+		(at 223.52 214.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18907,18 +18928,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "72ef0b75-7a58-4355-b128-7ceab4ffe6a4")
-	)
-	(label "Lane1_P"
-		(at 223.52 227.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "739dc8e7-c939-4aef-b4c9-59276ecc49fa")
+		(uuid "7623038d-e16e-4cc2-a09e-0073dcd1cc2f")
 	)
 	(label "ADC2|PB"
 		(at 148.59 276.86 0)
@@ -18930,17 +18940,6 @@
 			(justify left bottom)
 		)
 		(uuid "76568a08-4880-4a97-b7d2-bf9bafd6f272")
-	)
-	(label "LED_B"
-		(at 223.52 199.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "765fd91c-3d1f-4e25-b4db-bd01cc97a9a7")
 	)
 	(label "PICO_PMOD_B1"
 		(at 148.59 261.62 0)
@@ -18963,6 +18962,17 @@
 			(justify left bottom)
 		)
 		(uuid "790e88f4-53fc-4cb4-9b7a-620202aad167")
+	)
+	(label "GPIO11"
+		(at 223.52 204.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b478e3c-2922-4d49-af04-89f312685fe2")
 	)
 	(label "VCC_PLL"
 		(at 433.07 268.605 0)
@@ -19140,17 +19150,6 @@
 		)
 		(uuid "90437a55-6ab5-4395-ae10-8c99a64da50a")
 	)
-	(label "Clock_P"
-		(at 223.52 219.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "926cabea-3cd6-4611-a298-49bcb26affac")
-	)
 	(label "PICO_PMOD_B1"
 		(at 513.715 69.85 0)
 		(fields_autoplaced yes)
@@ -19194,6 +19193,17 @@
 			(justify left bottom)
 		)
 		(uuid "987a7207-92ad-43e5-83cf-f5ebd4ab1bab")
+	)
+	(label "Lane0_N"
+		(at 223.52 212.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "991fd27c-6905-4ebb-b039-90088ec7e139")
 	)
 	(label "ICE_SCK"
 		(at 513.715 44.45 0)
@@ -19282,17 +19292,6 @@
 			(justify right bottom)
 		)
 		(uuid "9ee294b7-b310-4b7c-98d5-bc82d334f9e4")
-	)
-	(label "Lane2_N"
-		(at 223.52 214.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9fed93da-8b8f-41c1-bd7e-85ab61a6f033")
 	)
 	(label "VREG_LX"
 		(at 63.5 168.91 0)
@@ -19470,6 +19469,17 @@
 		)
 		(uuid "b9f0cc02-2eb6-4c8e-ae04-033506b4e650")
 	)
+	(label "ICE_27"
+		(at 223.52 199.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b9fbcd0b-2fd4-40e0-9fbc-0eba9738c8dd")
+	)
 	(label "ICE_13|IO3"
 		(at 539.75 201.93 180)
 		(fields_autoplaced yes)
@@ -19535,17 +19545,6 @@
 			(justify right bottom)
 		)
 		(uuid "be95627f-d2b5-49af-9a10-8d32ae86c82f")
-	)
-	(label "GPIO10"
-		(at 223.52 204.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bf3b96c0-9b0d-4826-8437-9f035ef9bf6e")
 	)
 	(label "ICE_18"
 		(at 148.59 236.22 0)
@@ -19624,17 +19623,6 @@
 		)
 		(uuid "c72b59a6-4c8a-4d55-a671-f789e0b50f11")
 	)
-	(label "Lane0_P"
-		(at 223.52 234.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c773470d-cf46-4fd8-945f-1b139a1c68bd")
-	)
 	(label "Lane2_N"
 		(at 148.59 200.66 0)
 		(fields_autoplaced yes)
@@ -19667,6 +19655,17 @@
 			(justify left bottom)
 		)
 		(uuid "cd23382b-f9df-4808-9338-9df0b951c3a5")
+	)
+	(label "Lane2_N"
+		(at 223.52 234.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf131970-be30-4ac6-9560-fdc29327c3c6")
 	)
 	(label "~{USB_BOOT}"
 		(at 181.61 369.57 180)
@@ -19766,6 +19765,17 @@
 			(justify right bottom)
 		)
 		(uuid "e26d277d-7f40-4147-8c48-9f8bf7d720ba")
+	)
+	(label "GPIO10"
+		(at 223.52 207.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e2a58fe7-0aac-4850-9839-6b18b1036c6d")
 	)
 	(label "ADC1"
 		(at 148.59 274.32 0)
@@ -29759,6 +29769,157 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x22_MountingPin")
+		(at 233.68 214.63 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a9ed621-6084-4b49-865d-7fb0a50b8ee9")
+		(property "Reference" "J6"
+			(at 236.22 214.2745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SFV22R-2STE1HLF"
+			(at 236.22 211.7345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RP2350_60QFN_minimal:AMPHENOL_SFV22R-2STE1HLF"
+			(at 233.68 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x22, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 233.68 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFV22R-2STE1HLF"
+			(at 233.68 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AMPHENOL"
+			(at 233.68 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "17"
+			(uuid "a2fb20e4-0176-4b55-9af1-8d8c10271450")
+		)
+		(pin "4"
+			(uuid "b003d8a2-7491-4a2b-9282-f76954f07d47")
+		)
+		(pin "19"
+			(uuid "bc984a51-513d-46ea-a060-d69a8316bad0")
+		)
+		(pin "16"
+			(uuid "406acbe9-e006-4757-af59-c170cf8e34e8")
+		)
+		(pin "5"
+			(uuid "58965ca4-6d8f-4c0f-a821-ebf786fdea50")
+		)
+		(pin "6"
+			(uuid "fe6dfa1c-5330-4355-9ac9-5501f808d0ce")
+		)
+		(pin "7"
+			(uuid "d576d6e7-b3ff-49c5-b4a5-5e08b4ec6a5c")
+		)
+		(pin "21"
+			(uuid "00a04f41-37d8-4584-af84-52f9ce4abd4b")
+		)
+		(pin "1"
+			(uuid "d10d8a04-7e4b-482e-94b5-9bd4645d4c66")
+		)
+		(pin "13"
+			(uuid "5baa5b78-e44b-4e83-b367-1f2ed0bb95e1")
+		)
+		(pin "3"
+			(uuid "b5b96a68-a419-4c8e-acf9-2cf82673071c")
+		)
+		(pin "2"
+			(uuid "202f02be-2f83-4484-8fa2-0091dd503af8")
+		)
+		(pin "18"
+			(uuid "a560f4c3-41b5-4b82-920a-4b44a6d75c56")
+		)
+		(pin "10"
+			(uuid "ccbebe05-fe59-4a9b-8587-e0a369633c3b")
+		)
+		(pin "20"
+			(uuid "de6faf0d-ae38-48c3-a9ce-41a0effe88b3")
+		)
+		(pin "15"
+			(uuid "2c195d51-f9cd-4c05-8859-9d52462b40d0")
+		)
+		(pin "8"
+			(uuid "9b948d15-1687-4db4-bd64-4b58f0280d82")
+		)
+		(pin "MP"
+			(uuid "b64c989e-0163-413e-9e35-8a475f6c9bb9")
+		)
+		(pin "11"
+			(uuid "3ed67c80-e345-44f0-9abf-838541ea6eaa")
+		)
+		(pin "14"
+			(uuid "6563e1d4-edcb-4d9b-8810-d38fa6320bec")
+		)
+		(pin "22"
+			(uuid "116359e2-3e6e-4d74-adc1-95d34f4009c2")
+		)
+		(pin "12"
+			(uuid "490a1b40-e5bf-4d56-9974-47284d20b107")
+		)
+		(pin "9"
+			(uuid "9e624c98-9976-4dea-9d03-4974ea13051d")
+		)
+		(instances
+			(project "pico2-ice"
+				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UPduino_v3.0:power_GND")
 		(at 100.33 39.37 0)
 		(unit 1)
@@ -33756,157 +33917,6 @@
 			(project "pico2-ice"
 				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x22_MountingPin")
-		(at 233.68 212.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a790bea6-813d-49ab-9e4d-b760d7bbe652")
-		(property "Reference" "J6"
-			(at 236.22 212.4455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SFV22R-2STE1HLF"
-			(at 236.22 214.9855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RP2350_60QFN_minimal:AMPHENOL_SFV22R-2STE1HLF"
-			(at 233.68 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x22, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 233.68 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SFV22R-2STE1HLF"
-			(at 233.68 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "AMPHENOL"
-			(at 233.68 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "17"
-			(uuid "62ada9ac-9370-4094-9dce-828d369b34f2")
-		)
-		(pin "4"
-			(uuid "1411e3ce-a5b0-42e6-8829-a60837feaf3c")
-		)
-		(pin "19"
-			(uuid "26a85c94-cb88-4e25-8df1-8aed10f7c78a")
-		)
-		(pin "16"
-			(uuid "65bb5a2d-cdcc-4d2b-9c75-18626b53a8c0")
-		)
-		(pin "5"
-			(uuid "2c34797c-5b55-4f17-a4cb-80e3ba7fa5a0")
-		)
-		(pin "6"
-			(uuid "642ebe3c-5206-45e0-808b-c4efc9dd6e44")
-		)
-		(pin "7"
-			(uuid "065bddab-4a3a-4864-a21a-d0830065eb6a")
-		)
-		(pin "21"
-			(uuid "796771ce-08f1-47b2-967a-e2c8616dabc2")
-		)
-		(pin "1"
-			(uuid "ffa31244-f5cb-471c-92f8-0e8f2a7f0c74")
-		)
-		(pin "13"
-			(uuid "0f89317a-d15c-4b7e-bfd8-4ea355118537")
-		)
-		(pin "3"
-			(uuid "ae2446d2-6b04-4afa-9322-c23b7827587a")
-		)
-		(pin "2"
-			(uuid "8015172d-f483-4425-a768-92efd9494d8e")
-		)
-		(pin "18"
-			(uuid "3e1d2496-f1a3-44c3-951f-38202bd25c64")
-		)
-		(pin "10"
-			(uuid "121955ec-aa54-4cd2-b320-203725aca2de")
-		)
-		(pin "20"
-			(uuid "5005cab6-c43a-44ce-8250-53ec99b3da86")
-		)
-		(pin "15"
-			(uuid "036ea269-b074-4a57-a2fe-5fafbda7a5ca")
-		)
-		(pin "8"
-			(uuid "2ef4d13b-0b1f-4cbe-aa23-c150c8df7250")
-		)
-		(pin "MP"
-			(uuid "bd1e077b-5acb-4de3-9038-18d8e101dc3a")
-		)
-		(pin "11"
-			(uuid "f5edddc4-425f-4a19-b205-cef4430f90cc")
-		)
-		(pin "14"
-			(uuid "9ab26b7e-ff57-4899-9091-c82f93668b01")
-		)
-		(pin "22"
-			(uuid "4d0917fb-a83a-44d6-a7a9-513cb3ea8e1c")
-		)
-		(pin "12"
-			(uuid "ffeb7b70-23ee-4640-b47e-06f1e93f20ba")
-		)
-		(pin "9"
-			(uuid "a49679ac-5511-46a4-9e63-891d69c6f205")
-		)
-		(instances
-			(project "pico2-ice"
-				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -37913,7 +37923,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 245.11 0)
+		(at 227.33 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37921,7 +37931,7 @@
 		(dnp no)
 		(uuid "e27664bc-560d-47cd-ab6e-69801eae1966")
 		(property "Reference" "#PWR063"
-			(at 233.68 251.46 0)
+			(at 227.33 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37930,7 +37940,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.807 249.5042 0)
+			(at 227.457 245.6942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37938,7 +37948,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 245.11 0)
+			(at 227.33 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37947,7 +37957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 245.11 0)
+			(at 227.33 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37956,7 +37966,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 245.11 0)
+			(at 227.33 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
