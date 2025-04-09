@@ -1,0 +1,74 @@
+\chapter{Getting Started}
+\hypertarget{md_getting__started}{}\label{md_getting__started}\index{Getting Started@{Getting Started}}
+\label{md_getting__started_autotoc_md0}%
+\Hypertarget{md_getting__started_autotoc_md0}%
+
+
+Once you receive the board, you would be able to plug via USB and see the RGB LED blinking. You might want to update the default firmware to make sure to have the latest bugfixes\+:\hypertarget{md_getting__started_autotoc_md1}{}\doxysection{\texorpdfstring{Default Firmware}{Default Firmware}}\label{md_getting__started_autotoc_md1}
+\href{https://github.com/tinyvision-ai-inc/pico-ice-micropython}{\texttt{ source}} -\/ \href{https://github.com/tinyvision-ai-inc/pico-ice-micropython/releases}{\texttt{ download}}
+
+To provide the various USB programming methods and allow to boot the FPGA, a default firmware is loaded onto the RP2350 (Pico part of the pico2-\/ice).
+
+It provides\+:
+
+
+\begin{DoxyItemize}
+\item Micropython 1.\+24.\+1 or later accessible via USB CDC
+\item USB MSC to copy data to the Micropython filesystem
+\item A custom module to flash the FPGA flash or RAM
+\end{DoxyItemize}
+
+See \href{md_programming__the__mcu.html}{\texttt{ Programming the RP2350}} for how to load this firmware file.\hypertarget{md_getting__started_autotoc_md2}{}\doxysection{\texorpdfstring{Soldering the Pmods}{Soldering the Pmods}}\label{md_getting__started_autotoc_md2}
+In case you ordered the board without the \href{md_pmods.html}{\texttt{ Pmod}} connectors soldered, you would need to solder them in to plug something onto the board. For instance like this\+:
+
+ 
+\begin{DoxyImage}
+\includegraphics[width=\textwidth,height=\textheight/2,keepaspectratio=true]{pico_ice_pmod_install.jpg}
+\doxyfigcaption{pmod install after soldering}
+\end{DoxyImage}
+   \hypertarget{md_getting__started_autotoc_md3}{}\doxysection{\texorpdfstring{Using the SDK}{Using the SDK}}\label{md_getting__started_autotoc_md3}
+The \href{https://www.raspberrypi.com/products/rp2350/}{\texttt{ RP2350}} on the pico2-\/ice can be programmed with either custom C firmware, or languages such as \href{https://micropython.org/download/RPI_PICO2/}{\texttt{ Micro\+Python}}, \href{https://circuitpython.org/board/raspberry_pi_pico2/}{\texttt{ Circuit\+Python}}, \href{https://tinygo.org/docs/reference/microcontrollers/pico2/}{\texttt{ Go}}, \href{https://docs.rs/rp2-hal/latest/rp2_hal/}{\texttt{ Rust}}, \href{https://kalumajs.org/}{\texttt{ Java\+Script}}, \href{https://github.com/tabemann/zeptoforth}{\texttt{ Zepto\+Forth}}, ...
+
+Currently C/\+C++ programming is best suported through the pico-\/ice-\/sdk\+: a Raspberry Pi \href{https://github.com/raspberrypi/pico-sdk/}{\texttt{ pico-\/sdk}} library.
+
+This is a guide for how to build application running on the RP2350 microcontroller.
+
+The \href{https://github.com/tinyvision-ai-inc/pico-ice-sdk/tree/pico2-ice_develop}{\texttt{ pico-\/ice-\/sdk}} provides an API for communicating with the pico-\/ice hardware, also allowing to use the Raspberry Pi \href{https://github.com/raspberrypi/pico-sdk/}{\texttt{ pico-\/sdk}} directly.
+
+The pico-\/ice-\/sdk is organised as a normal pico-\/sdk project with {\ttfamily pico2\+\_\+ice} custom board.
+
+The \href{https://github.com/tinyvision-ai-inc/pico-ice-sdk/tree/pico2-ice_develop/examples}{\texttt{ examples}} show how everything can be to get started.
+
+Here is how to turn an example into a new project\+: \begin{DoxyVerb}# copy the whole example directory
+cp -r pico-ice-sdk/examples/pico_usb_uart my-new-pico-ice-firmware
+cd my-new-pico-ice-firmware
+
+# turn it into a git repository
+git init
+git remote add origin git@github.com:your-username/my-new-pico-ice-firmware
+
+# replace the two symlinks by git submodules
+rm pico-sdk pico-ice-sdk
+git submodule add https://github.com/raspberrypi/pico-sdk
+git submodule add https://github.com/tinyvision-ai-inc/pico-ice-sdk
+
+# fetch the submodules (using --recursive is very slow)
+git -C pico-ice-sdk submodule update --init
+git -C pico-sdk submodule update --init lib/tinyusb
+
+# you can now build it as a CMake project
+mkdir build && cd build
+cmake -DPICO_BOARD=pico2_ice .. && make
+\end{DoxyVerb}
+
+
+You can now edit the name of the project in the CMake\+Lists.\+txt, add new sources, and change the code.\hypertarget{md_getting__started_autotoc_md4}{}\doxysection{\texorpdfstring{Troubleshooting}{Troubleshooting}}\label{md_getting__started_autotoc_md4}
+Feel free to join the \href{https://discord.gg/sb2kwc66}{\texttt{ chat server}} to ask for help.\hypertarget{md_getting__started_autotoc_md5}{}\doxysubsection{\texorpdfstring{Error\+: C++ compiler not installed on this system}{Error\+: C++ compiler not installed on this system}}\label{md_getting__started_autotoc_md5}
+The pico-\/sdk is written in C, but uses a single C++ file to enable C++ support in the SDK. This means you need a working C++ cross compiler, often named {\ttfamily arm-\/none-\/eabi-\/g++}.
+
+Even if this binary is present in your system, it might not be a full C++ installation. If you do not need C++ and want to work around this bug, you can disable the C++ support in the pico-\/sdk. From your project repo\+: \begin{DoxyVerb}$ cd build
+$ cmake .. # download the SDK if not yet done
+$ sed -i '/new_delete.cpp/ d' _deps/pico-sdk-src/src/rp2_common/pico_standard_link/CMakeLists.txt
+$ cmake .. # rebuild the Makefile with the fix
+\end{DoxyVerb}
+ 

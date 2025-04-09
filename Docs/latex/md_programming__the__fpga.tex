@@ -1,0 +1,19 @@
+\chapter{Programming the i\+CE40}
+\hypertarget{md_programming__the__fpga}{}\label{md_programming__the__fpga}\index{Programming the iCE40@{Programming the iCE40}}
+\label{md_programming__the__fpga_autotoc_md36}%
+\Hypertarget{md_programming__the__fpga_autotoc_md36}%
+
+
+The FPGA normally boots from a dedicated serial NOR flash. This flash can be programmed by the Pico processor which exposes the flash to the host OS as either a removable drive or a DFU endpoint.
+
+On Windows, while the Raspberry\+Pi guide mentions using Visual Studio Code with a plugin a an IDE, better results were obtained by using the \href{https://learn.microsoft.com/en-us/windows/wsl/install}{\texttt{ WSL2 environment}}.\hypertarget{md_programming__the__fpga_autotoc_md37}{}\doxysection{\texorpdfstring{With Micropython}{With Micropython}}\label{md_programming__the__fpga_autotoc_md37}
+Out of the box, pico2-\/ice comes with a micropython firmware loaded in the RP2350, you can use it to upload bitstreams to the FPGA\+:
+
+
+\begin{DoxyEnumerate}
+\item Copy bitstream file to the USB MSC disk provided by micropython, unplug and replug the pico2-\/ice. Alternatively, use mpremote to copy the file {\ttfamily mpremote cp file.\+bin \+:}
+\item See the usage of micropython to upload your bitstream to FPGA flash or FPGA RAM\+: \href{md_mpy.html}{\texttt{ How to use Micropython}}
+\end{DoxyEnumerate}\hypertarget{md_programming__the__fpga_autotoc_md38}{}\doxysection{\texorpdfstring{Troubleshooting}{Troubleshooting}}\label{md_programming__the__fpga_autotoc_md38}
+\hypertarget{md_programming__the__fpga_autotoc_md39}{}\doxysubsection{\texorpdfstring{Checking the CDONE pin}{Checking the CDONE pin}}\label{md_programming__the__fpga_autotoc_md39}
+Once the FPGA bitfile transfers over using the DFU protocol, the Pico will check for whether the DONE pin goes high indicating a successful boot. This would make the CDONE green LED bright. If this doesnt happen for whatever reason, the DFU utility will throw an error indicating that this did not succeed.\hypertarget{md_programming__the__fpga_autotoc_md40}{}\doxysubsection{\texorpdfstring{Booting the FPGA with custom firmware}{Booting the FPGA with custom firmware}}\label{md_programming__the__fpga_autotoc_md40}
+The user writing a custom firmware with the pico-\/ice-\/sdk should take care of starting the FPGA from the MCU. Review the \href{https://github.com/tinyvision-ai-inc/pico-ice-sdk/tree/main/examples/pico_fpga}{\texttt{ pico\+\_\+fpga}} example for how this can be done. 

@@ -1,0 +1,78 @@
+\chapter{Micropython}
+\hypertarget{md_mpy}{}\label{md_mpy}\index{Micropython@{Micropython}}
+\label{md_mpy_autotoc_md20}%
+\Hypertarget{md_mpy_autotoc_md20}%
+
+
+Pico-\/ice and pico2-\/ice support micropython.\hypertarget{md_mpy_autotoc_md21}{}\doxysection{\texorpdfstring{To install}{To install}}\label{md_mpy_autotoc_md21}
+
+\begin{DoxyItemize}
+\item Acquire the latest release for the device you have from\+: \href{https://github.com/tinyvision-ai-inc/pico-ice-micropython/releases}{\texttt{ https\+://github.\+com/tinyvision-\/ai-\/inc/pico-\/ice-\/micropython/releases}}
+\item Flash the device as normal (uf2 pasted in the RP2 disk)
+\end{DoxyItemize}\hypertarget{md_mpy_autotoc_md22}{}\doxysection{\texorpdfstring{To use}{To use}}\label{md_mpy_autotoc_md22}
+The API to use the FPGA is as follow\+:
+\begin{DoxyItemize}
+\item {\ttfamily ice} is the microypthon module\+: {\ttfamily import ice}
+\item {\ttfamily fpga} is the class provided by the module to manage the ICE40 FPGA {\ttfamily ice.\+fpga(...)}
+\item {\ttfamily fpga} provides the methods {\ttfamily stop()}, {\ttfamily start()}, and {\ttfamily cram(file)}
+\end{DoxyItemize}\hypertarget{md_mpy_autotoc_md23}{}\doxysection{\texorpdfstring{How to program a bitstream to the FPGA RAM}{How to program a bitstream to the FPGA RAM}}\label{md_mpy_autotoc_md23}
+
+\begin{DoxyItemize}
+\item The Pin class is imported from the machine module to provide interfacing with the hardware.
+\item The module is imported
+\item The fpga type is configured with the approriate pins for the device, as well as the frequency (in MHz) that the FPGA will run at.
+\item The bitstream file is opened, in byte (as opposed to text) mode ({\ttfamily b}), to read ({\ttfamily r}).
+\item The fpga is brought out of reset with {\ttfamily fpga.\+start()}
+\item The bitstream is loaded into the FPGA using {\ttfamily fpga.\+cram(file)} with the previously opened file as argument.
+\end{DoxyItemize}\hypertarget{md_mpy_autotoc_md24}{}\doxysubsection{\texorpdfstring{On pico-\/ice\+:}{On pico-\/ice\+:}}\label{md_mpy_autotoc_md24}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{from}\ machine\ \textcolor{keyword}{import}\ Pin}
+\DoxyCodeLine{\textcolor{keyword}{import}\ ice}
+\DoxyCodeLine{fpga\ =\ ice.fpga(cdone=Pin(26),\ clock=Pin(24),\ creset=Pin(27),\ cram\_cs=Pin(9),\ cram\_mosi=Pin(8),\ cram\_sck=Pin(10),\ frequency=48)}
+\DoxyCodeLine{file\ =\ open(\textcolor{stringliteral}{"{}bitstream.bin"{}},\ \textcolor{stringliteral}{"{}br"{}})}
+\DoxyCodeLine{fpga.start()}
+\DoxyCodeLine{fpga.cram(file)}
+
+\end{DoxyCode}
+\hypertarget{md_mpy_autotoc_md25}{}\doxysubsection{\texorpdfstring{On pico2-\/ice\+:}{On pico2-\/ice\+:}}\label{md_mpy_autotoc_md25}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{from}\ machine\ \textcolor{keyword}{import}\ Pin}
+\DoxyCodeLine{\textcolor{keyword}{import}\ ice}
+\DoxyCodeLine{fpga\ =\ ice.fpga(cdone=Pin(40),\ clock=Pin(21),\ creset=Pin(31),\ cram\_cs=Pin(5),\ cram\_mosi=Pin(4),\ cram\_sck=Pin(6),\ frequency=48)}
+\DoxyCodeLine{file\ =\ open(\textcolor{stringliteral}{"{}bitstream.bin"{}},\ \textcolor{stringliteral}{"{}br"{}})}
+\DoxyCodeLine{fpga.start()}
+\DoxyCodeLine{fpga.cram(file)}
+
+\end{DoxyCode}
+\hypertarget{md_mpy_autotoc_md26}{}\doxysection{\texorpdfstring{How to program a bistream to the FPGA Flash (persistent bitstream)}{How to program a bistream to the FPGA Flash (persistent bitstream)}}\label{md_mpy_autotoc_md26}
+\hypertarget{md_mpy_autotoc_md27}{}\doxysubsection{\texorpdfstring{On pico-\/ice\+:}{On pico-\/ice\+:}}\label{md_mpy_autotoc_md27}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{from}\ machine\ \textcolor{keyword}{import}\ Pin}
+\DoxyCodeLine{\textcolor{keyword}{import}\ ice}
+\DoxyCodeLine{file\ =\ open(\textcolor{stringliteral}{"{}bitstream.bin"{}},\ \textcolor{stringliteral}{"{}br"{}})}
+\DoxyCodeLine{flash\ =\ ice.flash(miso=Pin(8),\ mosi=Pin(11),\ sck=Pin(10),\ cs=Pin(9))}
+\DoxyCodeLine{flash.erase(4096)\ \textcolor{comment}{\#\ Optional}}
+\DoxyCodeLine{flash.write(file)}
+\DoxyCodeLine{\textcolor{comment}{\#\ Optional}}
+\DoxyCodeLine{fpga\ =\ ice.fpga(cdone=Pin(26),\ clock=Pin(24),\ creset=Pin(27),\ cram\_cs=Pin(9),\ cram\_mosi=Pin(8),\ cram\_sck=Pin(10),\ frequency=48)}
+\DoxyCodeLine{fpga.start()}
+
+\end{DoxyCode}
+\hypertarget{md_mpy_autotoc_md28}{}\doxysubsection{\texorpdfstring{On pico2-\/ice\+:}{On pico2-\/ice\+:}}\label{md_mpy_autotoc_md28}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{from}\ machine\ \textcolor{keyword}{import}\ Pin}
+\DoxyCodeLine{\textcolor{keyword}{import}\ ice}
+\DoxyCodeLine{file\ =\ open(\textcolor{stringliteral}{"{}bitstream.bin"{}},\ \textcolor{stringliteral}{"{}br"{}})}
+\DoxyCodeLine{flash\ =\ ice.flash(miso=Pin(4),\ mosi=Pin(7),\ sck=Pin(6),\ cs=Pin(5))}
+\DoxyCodeLine{flash.erase(4096)\ \textcolor{comment}{\#\ Optional}}
+\DoxyCodeLine{flash.write(file)}
+\DoxyCodeLine{\textcolor{comment}{\#\ Optional}}
+\DoxyCodeLine{fpga\ =\ ice.fpga(cdone=Pin(40),\ clock=Pin(21),\ creset=Pin(31),\ cram\_cs=Pin(5),\ cram\_mosi=Pin(4),\ cram\_sck=Pin(6),\ frequency=48)}
+\DoxyCodeLine{fpga.start()}
+
+\end{DoxyCode}
+ 
