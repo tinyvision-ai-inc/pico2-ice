@@ -2,7 +2,7 @@
 | [Hardware](https://github.com/tinyvision-ai-inc/pico2-ice)
 | [SDK](https://github.com/tinyvision-ai-inc/pico-ice-sdk)
 | [Schematic](https://raw.githubusercontent.com/tinyvision-ai-inc/pico2-ice/docs/Board/Rev1/pico2-ice.pdf)
-| [Assembly](https://htmlpreview.github.io/?https://github.com/tinyvision-ai-inc/pico-ice/blob/docs/Board/Rev1/bom/pico2-ice_ibom.html)
+| [Assembly](https://htmlpreview.github.io/?https://github.com/tinyvision-ai-inc/pico2-ice/blob/docs/Board/Rev1/bom/pico2-ice_ibom.html)
 | [Discord](https://discord.gg/t2CzbAYeD2)
 
 [![Elecrow](https://media-cdn.elecrow.com/media/webp_image/logo/stores/1/ELECROW_LOGO.webp)](https://www.elecrow.com/pico-ice-rp2040-plus-lattice-ice40up5k-fpga.html)

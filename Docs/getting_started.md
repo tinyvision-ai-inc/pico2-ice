@@ -44,7 +44,7 @@ pico2-ice can be programmed with either custom C firmware, or languages such as
 [ZeptoForth](https://github.com/tabemann/zeptoforth),
 ...
 
-Currently C/C++ programming is best suported through the pico-ice-sdk:
+Currently C/C++ programming is best suported through the pico-ice-sdk, which is shared between pico-ice and pico2-ice:
 a Raspberry Pi [pico-sdk](https://github.com/raspberrypi/pico-sdk/) library.
 
 This is a guide for how to build application running on the RP2350 microcontroller.
