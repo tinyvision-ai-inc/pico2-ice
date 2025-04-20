@@ -32,3 +32,5 @@ Firmware features:
 * FPGA clock supplied by the RP2350, easy to program FPGA clock under SW control
 * RP2350 can program the FPGA in various ways
 * Micropython Firmware or C SDK
+
+[OSHW US002732](https://certification.oshwa.org/us002732.html) | Certified open source hardware | oshwa.org/cert

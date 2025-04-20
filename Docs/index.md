@@ -33,3 +33,5 @@ Board Firmware features:
 * RP2350 can program the FPGA in various ways
 
 ![](images/pico2_ice_blocks.webp)
+
+[OSHW US002732](https://certification.oshwa.org/us002732.html) | Certified open source hardware | oshwa.org/cert
