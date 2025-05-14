@@ -1,0 +1,29 @@
+Drill report for pico2-ice.kicad_pcb
+Created on 2025-05-14T22:05:08+0530
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'pico2-ice-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.254mm  0.0100"  (270 holes)
+    T2  0.254mm  0.0100"  (9 holes)
+    T3  0.600mm  0.0236"  (4 holes)  (with 4 slots)
+    T4  1.000mm  0.0394"  (80 holes)
+
+    Total plated holes count 363
+
+
+Drill file 'pico2-ice-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.650mm  0.0256"  (2 holes)
+    T2  2.700mm  0.1063"  (4 holes)
+
+    Total unplated holes count 6

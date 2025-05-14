@@ -1,0 +1,199 @@
+
+
+   ---- Transcoding 'E:\Works\BibinCJoseph\PCIO2-ice\pico2-ice-main\pico2-ice-main\Board\Rev2\Fabrication\Gerber\pico2-ice-B_Paste.gbr' ----   Wed May 14 22:05:34 2025
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+D17   --> D107
+D18   --> D108
+D19   --> D109
+D20   --> D110
+D21   --> D111
+D22   --> D112
+D23   --> D113
+D24   --> D114
+D25   --> D115
+D26   --> D116
+D27   --> D117
+D28   --> D118
+D29   --> D119
+D30   --> D120
+D31   --> D121
+D32   --> D122
+D33   --> D123
+D34   --> D124
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'E:\Works\BibinCJoseph\PCIO2-ice\pico2-ice-main\pico2-ice-main\Board\Rev2\Fabrication\Gerber\pico2-ice-B_Silkscreen.gbr' ----   Wed May 14 22:05:34 2025
+
+D10   --> D125
+D11   --> D126
+D12   --> D127
+D13   --> D128
+D14   --> D129
+D15   --> D130
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'E:\Works\BibinCJoseph\PCIO2-ice\pico2-ice-main\pico2-ice-main\Board\Rev2\Fabrication\Gerber\pico2-ice-F_Cu.gbr' ----   Wed May 14 22:05:34 2025
+
+D10   --> D131
+D11   --> D132
+D12   --> D133
+D13   --> D134
+D14   --> D135
+D15   --> D136
+D16   --> D137
+D17   --> D138
+D18   --> D139
+D19   --> D140
+D20   --> D141
+D21   --> D142
+D22   --> D143
+D23   --> D144
+D24   --> D145
+D25   --> D146
+D26   --> D147
+D27   --> D148
+D28   --> D149
+D30   --> D150
+D31   --> D151
+D32   --> D152
+D33   --> D153
+D34   --> D154
+D35   --> D155
+D36   --> D156
+D37   --> D157
+D38   --> D158
+D39   --> D159
+D40   --> D160
+D41   --> D161
+D42   --> D162
+D43   --> D163
+D44   --> D164
+D45   --> D165
+D46   --> D166
+D47   --> D167
+D48   --> D168
+D49   --> D169
+D50   --> D170
+D51   --> D171
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'E:\Works\BibinCJoseph\PCIO2-ice\pico2-ice-main\pico2-ice-main\Board\Rev2\Fabrication\Gerber\pico2-ice-F_Paste.gbr' ----   Wed May 14 22:05:34 2025
+
+D10   --> D172
+D11   --> D173
+D12   --> D174
+D13   --> D175
+D14   --> D176
+D15   --> D177
+D16   --> D178
+D17   --> D179
+D18   --> D180
+D19   --> D181
+D20   --> D182
+D21   --> D183
+D22   --> D184
+D23   --> D185
+D24   --> D186
+D25   --> D187
+D26   --> D188
+D27   --> D189
+D28   --> D190
+D29   --> D191
+D30   --> D192
+D31   --> D193
+D32   --> D194
+D33   --> D195
+D34   --> D196
+D35   --> D197
+D36   --> D198
+D37   --> D199
+D38   --> D200
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'E:\Works\BibinCJoseph\PCIO2-ice\pico2-ice-main\pico2-ice-main\Board\Rev2\Fabrication\Gerber\pico2-ice-F_Silkscreen.gbr' ----   Wed May 14 22:05:34 2025
+
+D10   --> D201
+D11   --> D202
+D12   --> D203
+D13   --> D204
+D15   --> D205
+D16   --> D206
+D17   --> D207
+D18   --> D208
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'E:\Works\BibinCJoseph\PCIO2-ice\pico2-ice-main\pico2-ice-main\Board\Rev2\Fabrication\Gerber\pico2-ice-In1_Cu.gbr' ----   Wed May 14 22:05:34 2025
+
+D10   --> D209
+D11   --> D210
+D12   --> D211
+D13   --> D212
+D14   --> D213
+D15   --> D214
+D16   --> D215
+D17   --> D216
+D18   --> D217
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'E:\Works\BibinCJoseph\PCIO2-ice\pico2-ice-main\pico2-ice-main\Board\Rev2\Fabrication\Gerber\pico2-ice-In2_Cu.gbr' ----   Wed May 14 22:05:34 2025
+
+D10   --> D218
+D11   --> D219
+D12   --> D220
+D13   --> D221
+D14   --> D222
+D15   --> D223
+D16   --> D224
+D17   --> D225
+D18   --> D226
+D19   --> D227
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'E:\Works\BibinCJoseph\PCIO2-ice\pico2-ice-main\pico2-ice-main\Board\Rev2\Fabrication\Gerber\pico2-ice-NPTH-drl_map.gbr' ----   Wed May 14 22:05:34 2025
+
+D11   --> D228
+D12   --> D229
+D13   --> D230
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'E:\Works\BibinCJoseph\PCIO2-ice\pico2-ice-main\pico2-ice-main\Board\Rev2\Fabrication\Gerber\pico2-ice-PTH-drl_map.gbr' ----   Wed May 14 22:05:34 2025
+
+D11   --> D231
+D12   --> D232
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'E:\Works\BibinCJoseph\PCIO2-ice\pico2-ice-main\pico2-ice-main\Board\Rev2\Fabrication\Gerber\pico2-ice-User_Drawings.gbr' ----   Wed May 14 22:05:34 2025
+
+D10   --> D233
+D11   --> D234
+D12   --> D235
+D13   --> D236
+D14   --> D237
+D15   --> D238
+D16   --> D239
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'E:\Works\BibinCJoseph\PCIO2-ice\pico2-ice-main\pico2-ice-main\Board\Rev2\Fabrication\Gerber\pico2-ice-PTH.drl' ----   Wed May 14 22:06:16 2025
+
+T1   --> T3
+T2   --> T4
+T3   --> T5
+T4   --> T6
+-----------------------------------------------------------------
