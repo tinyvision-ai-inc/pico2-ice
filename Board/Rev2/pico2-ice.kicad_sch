@@ -32905,6 +32905,15 @@
 				(hide yes)
 			)
 		)
+		(property "${REFERENCE}" "${REFERENCE}"
+			(at 233.68 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "17"
 			(uuid "a2fb20e4-0176-4b55-9af1-8d8c10271450")
 		)
@@ -35953,7 +35962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CUSTOM:tinyAI_logo"
+		(property "Footprint" "logo1:tiny_13X5_new"
 			(at 421.64 391.16 0)
 			(effects
 				(font
@@ -38833,6 +38842,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 191.77 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TL431BQDBZR"
+			(at 191.77 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "30fada35-3360-4a92-963e-fe82966e75ea")
 		)
@@ -39207,7 +39234,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "QFN-80-EP(10x10) Microcontrollers (MCU/MPU/SOC) ROHS"
+			(at 109.22 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RP2350B "
+			(at 109.22 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Raspberry Pi "
 			(at 109.22 200.66 0)
 			(effects
 				(font
@@ -40849,7 +40894,7 @@
 				)
 			)
 		)
-		(property "Value" "OSHW ID: US002140"
+		(property "Value" "OSHW ID: US002372"
 			(at 397.51 388.7724 0)
 			(effects
 				(font
