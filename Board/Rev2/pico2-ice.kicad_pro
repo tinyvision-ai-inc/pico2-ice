@@ -522,7 +522,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "SS_update/",
+      "plot": "Fabrication/Gerber/",
       "pos_files": "Fabrication/Assembly/",
       "specctra_dsn": "",
       "step": "pico-ice.step",
@@ -533,13 +533,13 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "Fabrication\\BOM\\pico2-ice.csv",
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
-      "keep_line_breaks": true,
-      "keep_tabs": true,
-      "name": "---",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
       "string_delimiter": "\""
@@ -630,12 +630,6 @@
           "group_by": false,
           "label": "Supplier",
           "name": "Supplier",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field6",
-          "name": "Field6",
           "show": false
         }
       ],
