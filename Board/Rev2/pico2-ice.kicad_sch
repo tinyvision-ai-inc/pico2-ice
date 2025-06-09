@@ -21011,6 +21011,26 @@
 		)
 		(uuid "0231cd6a-5bb7-40dc-8ada-90dea6890d61")
 	)
+	(label "Lane0_P"
+		(at 223.52 234.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "02a71767-a6a0-4a16-9431-5063bc4dc49e")
+	)
+	(label "Lane2_P"
+		(at 223.52 212.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03e1eccd-a45b-42a4-868d-0bebc3161a93")
+	)
 	(label "ICE_SO"
 		(at 513.715 41.91 0)
 		(effects
@@ -21030,16 +21050,6 @@
 			(justify left bottom)
 		)
 		(uuid "04e857ac-ee4a-43cd-8898-5a50785f15b2")
-	)
-	(label "Lane1_N"
-		(at 148.59 210.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0573699e-1fee-47c1-9240-af68b48b232a")
 	)
 	(label "ICE_42"
 		(at 421.64 59.69 180)
@@ -21171,16 +21181,6 @@
 		)
 		(uuid "148afabc-7044-40ae-90f9-43c6a10f61d6")
 	)
-	(label "Lane1_N"
-		(at 223.52 219.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1576947f-71e5-4c50-8608-2074d46861a5")
-	)
 	(label "ADC7"
 		(at 421.64 90.17 180)
 		(effects
@@ -21281,6 +21281,16 @@
 		)
 		(uuid "20021576-0675-4a87-bbc4-e24851da1e35")
 	)
+	(label "Lane2_N"
+		(at 223.52 214.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2052d647-4ea1-4ff4-b4cf-57d49cb0beac")
+	)
 	(label "QSPI_SCLK"
 		(at 55.88 393.7 180)
 		(effects
@@ -21361,16 +21371,6 @@
 		)
 		(uuid "2a78b250-c6a4-4a08-a610-8791d2964e9e")
 	)
-	(label "Lane1_P"
-		(at 148.59 208.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c961c18-86bb-4fc7-83d5-525ed67e1767")
-	)
 	(label "~{ICE_RST}"
 		(at 536.575 179.07 180)
 		(effects
@@ -21400,16 +21400,6 @@
 			(justify left bottom)
 		)
 		(uuid "3318da80-4f19-4bd0-a337-561a661256b1")
-	)
-	(label "Lane1_P"
-		(at 223.52 222.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "347fae79-3a44-4795-b490-b246f3aa1c23")
 	)
 	(label "PICO_PMOD_B4"
 		(at 513.715 77.47 0)
@@ -21480,16 +21470,6 @@
 			(justify right bottom)
 		)
 		(uuid "3bb312a8-9fbd-4528-8834-08789fe367ca")
-	)
-	(label "Lane0_N"
-		(at 148.59 215.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c6f00c2-122f-4dcf-b520-68854df60354")
 	)
 	(label "PICO_PMOD_B2"
 		(at 148.59 266.7 0)
@@ -21621,6 +21601,16 @@
 		)
 		(uuid "4763e759-77a1-4af6-99f6-0383ea90a884")
 	)
+	(label "Lane2_N"
+		(at 148.59 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47b10c68-b850-414a-86e1-507d1499f690")
+	)
 	(label "ICE_35_G0"
 		(at 435.61 208.28 180)
 		(effects
@@ -21640,16 +21630,6 @@
 			(justify left bottom)
 		)
 		(uuid "48f446ee-1ee8-4f65-9503-f3a1d970beda")
-	)
-	(label "Lane2_P"
-		(at 223.52 237.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4989ec3d-589d-4305-97c9-5703b883d03e")
 	)
 	(label "ICE_19"
 		(at 539.75 207.01 180)
@@ -21680,6 +21660,26 @@
 			(justify left bottom)
 		)
 		(uuid "4cf0808f-3834-424e-8510-de9e5b097673")
+	)
+	(label "Lane0_P"
+		(at 148.59 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d7cc70e-ff4a-4a23-8ab0-62765cc2e127")
+	)
+	(label "Lane1_P"
+		(at 148.59 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e7997cf-4d5a-44a9-8b72-0bc94c991ec9")
 	)
 	(label "ADC4"
 		(at 148.59 281.94 0)
@@ -21770,16 +21770,6 @@
 			(justify left bottom)
 		)
 		(uuid "5618931e-46e5-419b-830c-48951240122a")
-	)
-	(label "Clock_P"
-		(at 223.52 229.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "563010b3-7cc8-4f30-bbcf-b44cdc78977a")
 	)
 	(label "ICE_19"
 		(at 493.395 49.53 180)
@@ -21881,6 +21871,16 @@
 		)
 		(uuid "5cc953ce-79a0-43e8-9980-586a9719690a")
 	)
+	(label "Lane1_N"
+		(at 148.59 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60ff45c5-9649-4266-ac07-58035af41c2c")
+	)
 	(label "PICO_PMOD_A3"
 		(at 148.59 248.92 0)
 		(effects
@@ -21890,16 +21890,6 @@
 			(justify left bottom)
 		)
 		(uuid "61252e0e-0a25-47a3-b6b4-7994c131c12e")
-	)
-	(label "Clock_N"
-		(at 223.52 227.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "619db0e5-e5b4-4e21-8f86-0ac6283b7104")
 	)
 	(label "ICE_13|IO3"
 		(at 421.64 44.45 180)
@@ -22021,6 +22011,16 @@
 		)
 		(uuid "6b0a13f6-a2aa-4e91-8f32-df7d9dd01a5b")
 	)
+	(label "Clock_N"
+		(at 223.52 222.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6bf3f5c9-bd74-4567-b0c1-3f2f04583051")
+	)
 	(label "ICE_32"
 		(at 435.61 200.66 180)
 		(effects
@@ -22091,16 +22091,6 @@
 		)
 		(uuid "72271fbb-efac-4e36-acfe-d89970de5c9b")
 	)
-	(label "Lane0_P"
-		(at 223.52 214.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7623038d-e16e-4cc2-a09e-0073dcd1cc2f")
-	)
 	(label "ADC2|PB"
 		(at 148.59 276.86 0)
 		(effects
@@ -22170,16 +22160,6 @@
 			(justify right bottom)
 		)
 		(uuid "7dff647e-d450-46e3-92b5-f10ecbfd7e16")
-	)
-	(label "Lane0_P"
-		(at 148.59 213.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "81d6d742-658d-426c-b2ed-f1fbf1079efc")
 	)
 	(label "ICE_SSN"
 		(at 493.395 41.91 180)
@@ -22271,16 +22251,6 @@
 		)
 		(uuid "8e67cbec-fdaa-4432-8330-61e6aef9a8dc")
 	)
-	(label "Clock_P"
-		(at 148.59 203.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ea3fbe0-fe3b-4d21-a3df-f763e422a5a2")
-	)
 	(label "ICE_12|IO2"
 		(at 421.64 41.91 180)
 		(effects
@@ -22331,6 +22301,16 @@
 		)
 		(uuid "94adc1dd-67e0-49d9-8263-155068aca9d9")
 	)
+	(label "Lane1_P"
+		(at 223.52 227.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "95c2d8f9-850b-49a7-b7e0-8907693b68fe")
+	)
 	(label "ICE_35_G0"
 		(at 447.04 62.23 0)
 		(effects
@@ -22340,16 +22320,6 @@
 			(justify left bottom)
 		)
 		(uuid "987a7207-92ad-43e5-83cf-f5ebd4ab1bab")
-	)
-	(label "Lane0_N"
-		(at 223.52 212.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "991fd27c-6905-4ebb-b039-90088ec7e139")
 	)
 	(label "ICE_SCK"
 		(at 513.715 44.45 0)
@@ -22380,16 +22350,6 @@
 			(justify left bottom)
 		)
 		(uuid "9b9e1b13-37bd-49c5-8115-753b681d45bd")
-	)
-	(label "Lane2_P"
-		(at 148.59 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c7e1360-f486-4fd5-96ef-6babe69a4021")
 	)
 	(label "USB_D-"
 		(at 172.72 160.02 0)
@@ -22451,6 +22411,16 @@
 		)
 		(uuid "a228b4e0-3537-4575-973b-f6d1ed7a8477")
 	)
+	(label "Clock_N"
+		(at 148.59 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3c4360e-edfe-42a6-a605-438eb7b27a3e")
+	)
 	(label "ICE_43"
 		(at 435.61 213.36 180)
 		(effects
@@ -22460,6 +22430,16 @@
 			(justify right bottom)
 		)
 		(uuid "a519a079-d4c7-4615-9850-3f3ba5b06022")
+	)
+	(label "Clock_P"
+		(at 223.52 219.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a770679e-b568-4a7f-8484-11ec61ee48c7")
 	)
 	(label "QSPI_SD2"
 		(at 100.33 393.7 180)
@@ -22661,6 +22641,16 @@
 		)
 		(uuid "be95627f-d2b5-49af-9a10-8d32ae86c82f")
 	)
+	(label "Lane0_N"
+		(at 148.59 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be9da43f-c74d-4c4a-9885-41b65b857357")
+	)
 	(label "ICE_18"
 		(at 148.59 236.22 0)
 		(effects
@@ -22731,15 +22721,15 @@
 		)
 		(uuid "c72b59a6-4c8a-4d55-a671-f789e0b50f11")
 	)
-	(label "Lane2_N"
-		(at 148.59 200.66 0)
+	(label "Lane2_P"
+		(at 148.59 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c7e54fcf-0813-4573-af30-2643668b49d2")
+		(uuid "c94d9798-9540-41c5-9c18-4f7592fb2a8e")
 	)
 	(label "ICE_LED_G"
 		(at 514.35 64.77 0)
@@ -22760,16 +22750,6 @@
 			(justify left bottom)
 		)
 		(uuid "cd23382b-f9df-4808-9338-9df0b951c3a5")
-	)
-	(label "Lane2_N"
-		(at 223.52 234.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cf131970-be30-4ac6-9560-fdc29327c3c6")
 	)
 	(label "~{USB_BOOT}"
 		(at 181.61 369.57 180)
@@ -22830,6 +22810,16 @@
 			(justify right bottom)
 		)
 		(uuid "df0e52c5-f205-46c0-80aa-02b65096f4af")
+	)
+	(label "Lane0_N"
+		(at 223.52 237.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e091fa2c-296c-4363-9ace-40c65ab39c1d")
 	)
 	(label "ADC4"
 		(at 514.35 87.63 0)
@@ -22951,6 +22941,16 @@
 		)
 		(uuid "ed4a307e-a312-406d-a409-cfb2fb78cf79")
 	)
+	(label "Clock_P"
+		(at 148.59 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edd31bb5-d342-4a03-8e43-bba3fe338570")
+	)
 	(label "ADC2|PB"
 		(at 494.03 67.31 180)
 		(effects
@@ -23010,16 +23010,6 @@
 			(justify right bottom)
 		)
 		(uuid "f28c0bd9-ae6d-4f9c-ba7f-1e038037a068")
-	)
-	(label "Clock_N"
-		(at 148.59 205.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f2965e7f-e098-4bea-a564-b41b6dadd002")
 	)
 	(label "ICE_LED_R"
 		(at 429.006 226.06 0)
@@ -23100,6 +23090,16 @@
 			(justify left bottom)
 		)
 		(uuid "f88b4c72-357f-4ecc-8c3e-cb779e7d3c02")
+	)
+	(label "Lane1_N"
+		(at 223.52 229.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fabbe607-b86b-487b-898a-c13448305753")
 	)
 	(label "ICE_LED_B"
 		(at 514.35 67.31 0)
@@ -29765,7 +29765,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "10p"
 			(at 38.227 206.121 0)
 			(effects
 				(font
@@ -29792,7 +29792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 15PF 25V COG 0402"
+		(property "Description" "CAP CER 10PF 25V COG 0402"
 			(at 39.37 203.2 0)
 			(effects
 				(font
@@ -29801,7 +29801,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM1555C1E150JA01D"
+		(property "MPN" "GRM1555C1E100JA01D"
 			(at 39.37 203.2 0)
 			(effects
 				(font
@@ -39808,7 +39808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "10p"
 			(at 38.227 216.281 0)
 			(effects
 				(font
@@ -39835,7 +39835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 15PF 25V COG 0402"
+		(property "Description" "CAP CER 10PF 25V COG 0402"
 			(at 39.37 213.36 0)
 			(effects
 				(font
@@ -39844,7 +39844,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM1555C1E150JA01D"
+		(property "MPN" "GRM1555C1E100JA01D"
 			(at 39.37 213.36 0)
 			(effects
 				(font

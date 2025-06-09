@@ -10477,6 +10477,12 @@
 		(uuid "e7ac750e-10b9-498b-9c40-b37f94876d0a")
 	)
 	(junction
+		(at 425.45 284.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb70925f-19e3-4f30-aeee-cb33ee6de4a2")
+	)
+	(junction
 		(at 227.33 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11526,7 +11532,7 @@
 	)
 	(wire
 		(pts
-			(xy 422.91 284.48) (xy 422.91 299.72)
+			(xy 433.07 284.48) (xy 433.07 299.72)
 		)
 		(stroke
 			(width 0)
@@ -13746,7 +13752,7 @@
 	)
 	(wire
 		(pts
-			(xy 422.91 299.72) (xy 438.15 299.72)
+			(xy 433.07 299.72) (xy 438.15 299.72)
 		)
 		(stroke
 			(width 0)
@@ -14956,7 +14962,7 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 284.48) (xy 422.91 284.48)
+			(xy 415.29 284.48) (xy 425.45 284.48)
 		)
 		(stroke
 			(width 0)
@@ -15863,6 +15869,16 @@
 			(type default)
 		)
 		(uuid "e8400b29-0e69-4d74-bde6-019f4d787d07")
+	)
+	(wire
+		(pts
+			(xy 425.45 284.48) (xy 433.07 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e887e0c2-49ce-4346-9aa1-d131575e8aa3")
 	)
 	(wire
 		(pts
@@ -33988,6 +34004,71 @@
 		)
 	)
 	(symbol
+		(lib_id "UPduino_v3.0:power_GND")
+		(at 425.45 292.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8900605-60b9-44bb-91f7-e9060c67d054")
+		(property "Reference" "#PWR083"
+			(at 425.45 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 425.577 296.4942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 425.45 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 425.45 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 425.45 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "845a1bea-2f93-4e44-8559-bf5bacc57734")
+		)
+		(instances
+			(project "pico2-ice"
+				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 64.77 156.21 0)
 		(unit 1)
@@ -35366,6 +35447,111 @@
 			(project "pico2-ice"
 				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
 					(reference "LOGO3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UPduino_v3.0:Device_C")
+		(at 425.45 288.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bec1bee2-8b29-4b02-b714-5e62151e3e2d")
+		(property "Reference" "C40"
+			(at 428.371 287.1216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 428.371 289.433 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 426.4152 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 425.45 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 425.45 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 425.45 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71C104KA88J"
+			(at 425.45 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 425.45 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 425.45 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42146f02-0d68-40be-9b90-6595862e5c61")
+		)
+		(pin "2"
+			(uuid "dd26b2f4-22a5-41c7-ba77-7f820cc9d5eb")
+		)
+		(instances
+			(project "pico2-ice"
+				(path "/2ff44921-0562-495a-89f5-ac439f192d90"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -37615,7 +37801,7 @@
 				)
 			)
 		)
-		(property "Value" "OSHW ID: US002140"
+		(property "Value" "OSHW ID: US002732"
 			(at 397.51 388.7724 0)
 			(effects
 				(font

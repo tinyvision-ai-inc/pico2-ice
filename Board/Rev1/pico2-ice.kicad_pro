@@ -500,7 +500,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Fabrication/Gerber/",
+      "plot": "Fabrication_pico2-ice/Assembly/",
       "pos_files": "Fabrication/Assembly/",
       "specctra_dsn": "",
       "step": "pico-ice.step",

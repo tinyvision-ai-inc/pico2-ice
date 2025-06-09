@@ -31,6 +31,12 @@ For instance like this:
 
 ![pmod install after soldering](images/pico_ice_pmod_install.jpg)
 
+## Inserting the Flex into the FPC connector
+
+The high speed port from the RP2350 is connected to J6 which is quite a delicate connector. The FPC conenctor uses a Top Contact, Plunger style connector.
+
+Please see [this guide](https://www.mouser.com/pdfdocs/ENG_DS_1-1773959-6-flexible-printed-circuit-con_1018.pdf) for details on how to connect to it safely without breaking the connector.
+
 
 ## Using the SDK
 
