@@ -1,21 +1,23 @@
-# Micropython
+# MicroPython
 
-Pico-ice and pico2-ice support micropython.
-
+Pico-ice and pico2-ice support [MicroPython](https://micropython.org/).
 
 ## To install
-- Acquire the latest release for the device you have from: https://github.com/tinyvision-ai-inc/pico-ice-micropython/releases
-- Flash the device as normal (uf2 pasted in the RP2 disk)
+
+- Acquire the [latest release](https://github.com/tinyvision-ai-inc/pico-ice-micropython/releases/latest) for the device you have.
+- Program this `.uf2` file into the RP2350 as documented [here](programming_the_mcu.md).
 
 ## To use
+
 The API to use the FPGA is as follow:
+
 - `ice` is the microypthon module: `import ice`
-- `fpga` is the class provided by the module to manage the ICE40 FPGA `ice.fpga(...)`
-- `fpga` provides the methods `stop()`, `start()`, and `cram(file)`
+- `ice.fpga` is the class provided by the module to manage the ICE40 FPGA: `ice.fpga(...)`
+- `ice.fpga` provides the methods `stop()`, `start()`, and `cram(file)`
 
 ## How to program a bitstream to the FPGA RAM
 
-- The Pin class is imported from the machine module to provide interfacing with the hardware.
+- The `Pin` class is imported from the machine module to provide interfacing with the hardware.
 - The module is imported
 - The fpga type is configured with the approriate pins for the device, as well as the frequency (in MHz) that the FPGA will run at.
 - The bitstream file is opened, in byte (as opposed to text) mode (`b`), to read (`r`).
@@ -23,6 +25,9 @@ The API to use the FPGA is as follow:
 - The bitstream is loaded into the FPGA using `fpga.cram(file)` with the previously opened file as argument.
 
 ### On pico-ice:
+
+Make sure to adjust `frequency=` to the same frequency used by your FPGA design.
+Often a lower value such as 12 MHz.
 
 ```python
 from machine import Pin
@@ -34,6 +39,9 @@ fpga.cram(file)
 ```
 
 ### On pico2-ice:
+
+Make sure to adjust `frequency=` to the same frequency used by your FPGA design.
+Often a lower value such as 12 MHz.
 
 ```python
 from machine import Pin
@@ -48,6 +56,9 @@ fpga.cram(file)
 
 ### On pico-ice:
 
+Make sure to adjust `frequency=` to the same frequency used by your FPGA design.
+Often a lower value such as 12 MHz.
+
 ```python
 from machine import Pin
 import ice
@@ -61,6 +72,9 @@ fpga.start()
 ```
 
 ### On pico2-ice:
+
+Make sure to adjust `frequency=` to the same frequency used by your FPGA design.
+Often a lower value such as 12 MHz.
 
 ```python
 from machine import Pin
