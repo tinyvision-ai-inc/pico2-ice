@@ -31,7 +31,7 @@ jobs:
       - name: Build with Doxygen
         run: |
           cd Docs
-          git submodule update --init
+          git clone https://github.com/tinyvision-ai-inc/pico-ice-sdk
           doxygen
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
