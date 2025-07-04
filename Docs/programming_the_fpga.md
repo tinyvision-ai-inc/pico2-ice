@@ -5,7 +5,6 @@ This flash can be programmed by the Pico processor which exposes the flash to th
 
 On Windows, while the RaspberryPi guide mentions using Visual Studio Code with a plugin a an IDE, better results were obtained by using the [WSL2 environment](https://learn.microsoft.com/en-us/windows/wsl/install).
 
-
 ## With Micropython
 
 Out of the box, pico2-ice comes with a micropython firmware loaded in the RP2350, you can use it to upload bitstreams to the FPGA:
@@ -16,7 +15,6 @@ Out of the box, pico2-ice comes with a micropython firmware loaded in the RP2350
 
 ## Troubleshooting
 
-
 ### Checking the CDONE pin
 
 Once the FPGA bitfile transfers over using the DFU protocol,
@@ -25,9 +23,8 @@ This would make the CDONE green LED bright.
 If this doesnt happen for whatever reason,
 the DFU utility will throw an error indicating that this did not succeed.
 
-
 ### Booting the FPGA with custom firmware
 
 The user writing a custom firmware with the pico-ice-sdk should take care of starting the FPGA from the MCU.
-Review the [pico_fpga](https://github.com/tinyvision-ai-inc/pico-ice-sdk/tree/main/examples/pico_fpga) example
+Review the [rp2_fpga](https://github.com/tinyvision-ai-inc/pico-ice-sdk/tree/main/examples/rp2_fpga) example
 for how this can be done.

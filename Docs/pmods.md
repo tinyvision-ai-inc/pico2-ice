@@ -14,17 +14,18 @@ This standard is documented [here](https://reference.digilentinc.com/_media/refe
 
 Here is an [example of how to solder](md_getting__started.html#autotoc_md2) the Pmod connectors.
 
-There are 4 Pmod connectors in the pico-ice, numbered clockwise from 1 to 4 starting from the USB connector.
+There are 4 Pmod connectors in the pico-ice.
 
-- 2 connected ot the iCE40
-- 1 connected to both the RP2350 and iCE40
-- 1 connected to the RP2350
+- `ICE PMOD A` connected to the iCE40 only
+- `ICE PMOD B` connected to the iCE40 only
+- `RP-ICE PMOD` connected to both the RP2350 and iCE40
+- `RP PMOD` connected to the RP2350 only
 
-The pinout of the RP2350 is made to be compatible with SPI0,
+The pinout of the RP2350 is made to be compatible with SPI,
 with the other protocols that may be bit-banged or implemented with PIO to be pin-compatible.
 
 For the iCE40, the pin numbers are available from
-[pico_ice.pcf](https://github.com/tinyvision-ai-inc/pico-ice-sdk/blob/main/rtl/pico_ice.pcf).
+[`pico2_ice.pcf`](https://github.com/tinyvision-ai-inc/pico-ice-sdk/blob/main/rtl/pico2_ice.pcf).
 
 ## Pmod Modules
 
